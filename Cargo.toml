@@ -5,12 +5,18 @@ description = "A framework to design sound, reproducible and scalable mining rep
 authors = ["Andrea Gilot <andrea.gilot@it.uu.se>"]
 edition = "2021"
 repository = "https://github.com/fxpl/scyros"
-rust-version = "1.88"
+rust-version = "1.94"
 readme = "README.md"
 include = ["src/**", "Cargo.toml", "Cargo.lock", "rust-toolchain.toml", "README.md", "LICENSE", "tests/**"]
 keywords = ["data-mining", "github", "code-analysis", "repository-mining"]
 categories = ["command-line-utilities", "science"]
 license = "Apache-2.0"
+
+[package.metadata.wix]
+upgrade-guid = "D9D65031-82A9-4A47-BDE1-806672CB3E9E"
+path-guid = "4EC8E0BD-6C25-4C76-A73A-EF5B970E5830"
+license = false
+eula = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -58,6 +64,11 @@ zip-extensions = "0.13.0"
 
 [profile.release]
 debug = true
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
 
 [lints.clippy]
 should_implement_trait = "allow"
