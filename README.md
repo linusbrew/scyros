@@ -25,12 +25,17 @@ A framework to design sound, reproducible and scalable mining repositories studi
 - [License](#license)
 - [Change Log](#change-log)
 
-
 ## Installation
 
-This project is written is Rust and requires Rust version 1.85. Install Rust by following the instructions on the [official website](https://rust-lang.org/tools/install/).
+### Prebuilt binaries
 
-Build Scyros from source:
+Prebuilt binaries for macOS, Linux, and Windows are available on the project's [GitHub Releases page](https://github.com/fxpl/scyros/releases), along with installer scripts.
+
+### Build from source
+
+If you prefer to build Scyros yourself, install Rust (version 1.94 or newer) by following the instructions on the [official website](https://rust-lang.org/tools/install/).
+
+Then clone the repository and build:
 ```bash
 git clone git@github.com:fxpl/scyros.git
 cd scyros
