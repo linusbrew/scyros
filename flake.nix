@@ -22,7 +22,7 @@
         let
           pkgs = import nixpkgs { inherit system; };
         in {
-          default = pkgs.rustPlatform.buildRustPackage {
+          scyros = pkgs.rustPlatform.buildRustPackage {
             inherit pname version;
             src = ./.;
             cargoLock.lockFile = ./Cargo.lock;
@@ -45,6 +45,7 @@
               platforms = platforms.unix;
             };
           };
+          default = scyros;
         });
     };
 }

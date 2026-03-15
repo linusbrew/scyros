@@ -2,8 +2,8 @@
 
 [![Actions status](https://github.com/fxpl/scyros/actions/workflows/ci.yml/badge.svg)](https://github.com/fxpl/scyros/actions)
 ![License](https://img.shields.io/crates/l/scyros.svg)
-[![Rust](https://img.shields.io/badge/rust-1.85-blue)](
-https://releases.rs/docs/1.85.0/
+[![Rust](https://img.shields.io/badge/rust-1.93-blue)](
+https://releases.rs/docs/1.93.0/
 )
 [![Crates.io](https://img.shields.io/crates/v/scyros.svg)](https://crates.io/crates/scyros)
 
@@ -19,6 +19,7 @@ A framework to design sound, reproducible and scalable mining repositories studi
 ## Table of Contents
 
 - [Installation](#installation)
+- [Tutorial](#tutorial)
 - [Usage](#usage)
 - [Authentication and Rate Limits](#authentication-and-rate-limits)
 - [Citing Scyros](#citing-scyros)
@@ -31,9 +32,30 @@ A framework to design sound, reproducible and scalable mining repositories studi
 
 Prebuilt binaries for macOS, Linux, and Windows are available on the project's [GitHub Releases page](https://github.com/fxpl/scyros/releases), along with installer scripts.
 
+### Using a package manager
+
+Scyros is available through several package managers.
+
+### Cargo
+
+Scyros is published on [crates.io](https://crates.io/crates/scyros) and can be installed with Cargo:
+
+```bash
+cargo install scyros
+```
+
+### Nix
+
+If you use Nix with flakes enabled, you can install Scyros directly from GitHub:
+
+```nix
+nix profile install github:fxpl/scyros
+```
+
+
 ### Build from source
 
-If you prefer to build Scyros yourself, install Rust (version 1.94 or newer) by following the instructions on the [official website](https://rust-lang.org/tools/install/).
+Install Rust (version 1.94 or newer) by following the instructions on the [official website](https://rust-lang.org/tools/install/).
 
 Then clone the repository and build:
 ```bash
@@ -43,6 +65,10 @@ cargo build --release
 ```
 
 The binary is produced at `target/release/scyros`. You can optionally move it to a directory in your PATH for easier access.
+
+## Tutorial
+
+If you'd like to see how to use Scyros in practice, check out the [interactive tutorial](https://github.com/fxpl/scyros-tutorial)!
 
 ## Usage
 
