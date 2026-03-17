@@ -81,7 +81,8 @@ pub fn cli() -> Command {
                 .value_name("TOKENS_FILE.csv")
                 .help("Path to the file containing the GitHub tokens to use. It must be a valid CSV file with one column named 'token' and where every line is a \
                        valid GitHub token (e.g ghp_Ab0C1D2eFg3hIjk4LM56oPqRsTuvWX7yZa8B).")
-                .required(true)
+                .conflicts_with("skip")
+                .required_unless_present("skip"),
         )
         .arg(
             Arg::new("dest")
@@ -182,7 +183,6 @@ pub fn run(
     thread: usize,
 ) -> Result<()> {
     // Number of columns in the log files
-    const PROJECT_LOG_COLS: usize = 14;
     const FILE_LOG_COLS: usize = 6;
 
     // Check if the token file is valid and load the tokens.
@@ -202,7 +202,7 @@ pub fn run(
                 Field::new("latest_commit".into(), DataType::String),
             ])),
             Some(if skip {
-                vec!["id", "path"]
+                vec!["path"]
             } else {
                 vec!["id", "name", "latest_commit"]
             }),
@@ -222,14 +222,14 @@ pub fn run(
         let row = input_file.get_row(idx).unwrap().0;
 
         if skip {
-            match (row[0].clone(), row[1].clone()) {
-                (AnyValue::UInt32(id), AnyValue::String(path)) => Ok((idx, id, path, None)),
+            match row[0].clone() {
+                AnyValue::String(path) => Ok((idx, None, path, None)),
                 _ => Err(idx),
             }
         } else {
             match (row[0].clone(), row[1].clone(), row[2].clone()) {
                 (AnyValue::UInt32(id), AnyValue::String(name), AnyValue::String(latest_commit)) => {
-                    Ok((idx, id, name, Some(latest_commit)))
+                    Ok((idx, Some(id), name, Some(latest_commit)))
                 }
                 _ => Err(idx),
             }
@@ -257,15 +257,28 @@ pub fn run(
 
     // Load previous results if the skip flag is not set.
 
-    let previous_results: HashSet<u32> = logger.run_task("Resuming progress", || {
-        Ok(if overwrite || !Path::new(&project_log_path).exists() {
-            HashSet::<u32>::new()
-        } else {
-            let project_log_file = CSVFile::new(project_log_path, FileMode::Read)?;
-            let prev_res: HashSet<u32> = project_log_file.column::<u32>(0)?.into_iter().collect();
-            prev_res
-        })
-    })?;
+    let previous_results: HashSet<(Option<u32>, Option<String>)> =
+        logger.run_task("Resuming progress", || {
+            Ok(if overwrite || !Path::new(&project_log_path).exists() {
+                HashSet::<(Option<u32>, Option<String>)>::new()
+            } else {
+                let project_log_file: CSVFile = CSVFile::new(project_log_path, FileMode::Read)?;
+                let prev_res: HashSet<(Option<u32>, Option<String>)> = if skip {
+                    project_log_file
+                        .column::<String>(0)?
+                        .into_iter()
+                        .map(|s| (None, Some(s)))
+                        .collect()
+                } else {
+                    project_log_file
+                        .column::<u32>(0)?
+                        .into_iter()
+                        .map(|id| (Some(id), None))
+                        .collect()
+                };
+                prev_res
+            })
+        })?;
 
     if !previous_results.is_empty() {
         info!(
@@ -310,22 +323,42 @@ pub fn run(
     )?;
 
     // If the file has no header, write the header.
-    let project_log_headers: [&str; PROJECT_LOG_COLS] = [
-        "id",
-        "path",
-        "name",
-        "latest_commit",
-        "files",
-        "loc",
-        "words",
-        "files_with_kw",
-        &files_with_kw_headers,
-        "loc_with_kw",
-        &loc_of_files_with_kw_headers,
-        "words_with_kw",
-        &words_of_files_with_kw_headers,
-        &keyword_match_headers,
-    ];
+    let project_log_headers: Vec<&str> = if skip {
+        [
+            "path",
+            "name",
+            "latest_commit",
+            "files",
+            "loc",
+            "words",
+            "files_with_kw",
+            &files_with_kw_headers,
+            "loc_with_kw",
+            &loc_of_files_with_kw_headers,
+            "words_with_kw",
+            &words_of_files_with_kw_headers,
+            &keyword_match_headers,
+        ]
+        .to_vec()
+    } else {
+        [
+            "id",
+            "path",
+            "name",
+            "latest_commit",
+            "files",
+            "loc",
+            "words",
+            "files_with_kw",
+            &files_with_kw_headers,
+            "loc_with_kw",
+            &loc_of_files_with_kw_headers,
+            "words_with_kw",
+            &words_of_files_with_kw_headers,
+            &keyword_match_headers,
+        ]
+        .to_vec()
+    };
 
     project_log_file.write_header(&project_log_headers)?;
 
@@ -386,27 +419,34 @@ pub fn run(
                     match next_item {
                         Some(row) => {
                             match row {
-                                Ok((row_nr, id, full_name, last_commit)) => {
+                                Ok((row_nr, id_opt, full_name, last_commit)) => {
                                     // Check if the project has already been downloaded.
                                     // If not, download it and send the information back to the main thread.
 
-                                    let project_path: String = match last_commit {
-                                        Some(commit) => format!(
+                                    let project_path: String = match (last_commit, id_opt) {
+                                        (Some(commit), Some(id)) => format!(
                                             "{}/{}/{}-{}",
                                             target,
                                             row_nr / MAX_SUBDIRS,
                                             id,
                                             commit
                                         ),
-                                        None => full_name.to_string(),
+                                        (None, None) => full_name.to_string(),
+                                        _ => unreachable!(),
                                     };
 
-                                    if !previous_results.contains(&id)
-                                        && (!skip || Path::new(&project_path).exists())
+                                    let path_opt = if skip {
+                                        Some(project_path.clone())
+                                    } else {
+                                        id_opt.map(|id| id.to_string())
+                                    };
+
+                                    if (!skip || Path::new(&project_path).exists())
+                                        && !previous_results.contains(&(id_opt, path_opt))
                                     {
                                         match download_repo(
                                             t.as_str(),
-                                            id,
+                                            id_opt,
                                             &project_path,
                                             full_name,
                                             last_commit,
@@ -457,9 +497,9 @@ pub fn run(
                 Some(msg_content) => {
                     let (project_msg, files_msg) = msg_content?;
 
-                    writeln!(&mut project_log_file, "{project_msg}").unwrap();
+                    writeln!(&mut project_log_file, "{project_msg}")?;
                     if !files_msg.trim().is_empty() {
-                        write!(&mut file_log, "{files_msg}").unwrap();
+                        write!(&mut file_log, "{files_msg}")?;
                     }
                     progress.inc(1);
                 }
@@ -496,7 +536,7 @@ pub fn run(
 /// # Arguments
 ///
 /// * `token` - The GitHub token to use for the request.
-/// * `id` - The id of the project.
+/// * `id_opt` - The id of the project, if the project is downloaded from GitHub.
 /// * `project_path` - The path to the directory where the repository is/will be downloaded.
 /// * `full_name` - The full name of the project.
 /// * `last_commit` - The hash of the last commit of the project.
@@ -542,7 +582,7 @@ pub fn run(
 ///
 fn download_repo(
     token: &str,
-    id: u32,
+    id_opt: Option<u32>,
     project_path: &str,
     full_name: &str,
     last_commit: Option<&str>,
@@ -552,6 +592,12 @@ fn download_repo(
     delete: bool,
 ) -> Result<(String, String)> {
     if !skip {
+        let id = id_opt.with_context(|| {
+            format!(
+                "Project {} does not have an id, cannot be downloaded",
+                full_name
+            )
+        })?;
         let http_client = reqwest::blocking::Client::builder()
             .connect_timeout(Duration::from_secs(10))
             .timeout(None)
@@ -725,8 +771,8 @@ fn download_repo(
 
                     writeln!(
                         &mut files_output,
-                        "{},{},{},{},{},{}",
-                        id,
+                        "{}{},{},{},{},{}",
+                        id_opt.map_or_else(String::new, |i| format!("{},", i)),
                         path.replace(",", "-was_comma-")
                             .replace("\"", "-was_quote-"),
                         lang,
@@ -756,8 +802,8 @@ fn download_repo(
     }
 
     let project_output = format!(
-        "{},{},{},{},{},{},{},{},{},{},{},{},{},{}",
-        id,
+        "{}{},{},{},{},{},{},{},{},{},{},{},{},{}",
+        id_opt.map_or_else(String::new, |i| format!("{},", i)),
         project_path,
         full_name,
         last_commit.unwrap_or_default(),
