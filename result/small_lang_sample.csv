@@ -1,0 +1,101 @@
+id,name,languages,latest_commit
+479035427,FabianHelmberger/NMS_Falina,Gnuplot:673;Jupyter Notebook:37482;C:5967;Fortran:41097;Python:44029,f19581e9e562c53f5431f79d62c0f22e25f3c2b6
+676154481,remidiy/real-system,Go:350;Python:144721,93697cec97c08279b5695ba9e0b438e215d37eda
+246455897,RajLabMSSM/editing-pipeline,R:32926;Python:26066;Awk:1586;Shell:1176,d1b52d84f846b251e9737499906f57dac6890a74
+148324309,dushumun/Showcase,Jupyter Notebook:1232864;Python:13410,8cea32344c27c270773c41cac7d4cca4710c7c6e
+380395349,adataschultz/MaritimeTrade_COVID,Jupyter Notebook:30744957;Python:177550,6b6200a96df125c5c348e216bc34974936708d91
+164727527,chnadell/dlmCN,Python:83423,5fbe62c7309331c0b326cca3c4a5e4aaea55cb7d
+292762478,HiteshMah-Jan/Pokemon-Classifier,Python:5484,f9b623aa54d6574222abcbf37d65b7a1ce7609f4
+761969297,kila58/qemu-patched,Haxe:334833;GLSL:585;Lua:3412;Tcl:1864;M4:47300;Jinja:634;NSIS:8753;C#:1496834;ANTLR:15914;SourcePawn:83351;SmPL:28899;GDB:6973;QMake:1086;Perl:5800737;Rez:21053;Vim Script:220;Makefile:788186;Batchfile:535803;HTML:300704;NASL:65205;Pawn:31062;CMake:64060;Lex:47813;Starlark:46902;C:206864253;Roff:192404;XSLT:26248;Ruby:919;POV-Ray SDL:57289;Java:1107326;Dockerfile:19294;ASL:177220;Rust:744;DIGITAL Command Language:5681;C++:11729349;Rich Text Format:1431291;Module Management System:1304;Meson:462326;Emacs Lisp:3809;JavaScript:662919;GAP:426624;Python:12857754;Forth:310201;Objective-C:109546;Shell:2565565;Yacc:71396;Go:37560;SWIG:33437;eC:5155;sed:393;Assembly:4353615,7adb85977c0d225f641021c2cafbcc9aff3a46c6
+395558354,pankajsajekar/ecommerce-website,CSS:134327;HTML:86020;JavaScript:838701;Python:36789,f2c376fe4ce3a61a7859125db59f55810fd05153
+181108129,NVlabs/data-orchestration,C++:1579636;Shell:276659;C:4255;Python:285834;Perl:5816,d5d23d440408398ec740717b3c30309f4fb81cce
+148242128,Weidaoqin/Pythom.work,Python:24412,1c5a9cdbdfb300a2ed519dc7bd141e919617fcf6
+500876399,xym-ee/ros_arm,C++:11741;CMake:51291;Python:66557,31ec6345c0756eb31101d6d5380da99d4686dd4a
+458554179,NotSmurf1245/Exercism,Python:335;Nim:11809;Clojure:759;Rust:224;Ruby:1186;Go:1484,58676b8f02f330e2632ee9b2b97d427738b69fd7
+55537398,YacineMesbat/Code-Camp-Linux---Backito,Python:9554;CSS:3231;Shell:277;PHP:3501;JavaScript:484,d250362202bd7cefc57565f9e3da66328311e9a2
+542780115,kozl/ates,Go:18529;Python:67448;Makefile:846;Dockerfile:554,35ff35e28e5de7f534da34145e53998ea98b9103
+793163513,itsmejv404/Python_Store_Management,Python:75329,a6e8fd5008334f906e10429ccae4cdb63ddacabb
+295860467,haukuri/ltl-planner,Python:38223;Makefile:3110;C:123509,8911dd100224cb7aeb189719af486124ead69e30
+92771870,m65v/opendlv.scaledcars,Java:49598;Shell:337981;Python:699;C++:421314;CMake:167449;Makefile:11151;C:44705;Roff:492;Arduino:280,4557e9280d024532812bc92a7ff41f3607d7b3aa
+514691046,byrongomezjr/npr_podcast_content_aggregator,C:42364;HTML:120734;PowerShell:8834;Python:19934883;Procfile:29;Shell:2878;JavaScript:856374;CSS:511851,8142f28146506924955566d25a5bc74bfae6e694
+322022929,Formulae-Litterae-Chartae/coenotur_handschriften,HTML:132460;JavaScript:60;Procfile:27;Mako:494;Python:139048;CSS:465,4fa3461bd6fb24a0a9c7c9e3045e0dab2ef2a1e0
+802391902,RodneyFinkel/groq_deepgram_agent,JavaScript:1191;HTML:20485;CSS:13856;Python:54566,c0750fb9521019bbda7aee44b7eb3fd2aa49ca5f
+443386706,davidrs/famous_names,Python:2367;Jupyter Notebook:23145;JavaScript:1794;CSS:225;HTML:1349,241b98ae66ee3dbb131c4855e5802abd5db1a87b
+562487536,Heydarchi/SELinux-Explorer,Python:164510;Shell:209,93e7c6fb2637cab5831a8b1b92ae33557661e44a
+160886460,kiana-h/MIT_Computer-Science-and-Programming-in-Python,Python:242356,a6e99ec453d25d6b748c8db7856554186ef8a1c6
+235417661,wmgroot/aros,Python:27129,e5cf149dcd7d2c62e1f4ca9eea47c05cc6d838c8
+111320912,cameronfabbri/InfoGAN,Python:14844,9765a90d52b4d6e5150bd43bad5125f89d0174b1
+104999562,digirati-co-uk/python-capture-model-tools,Python:21763;JavaScript:3904455;HTML:5847,369d121a98aaa0b0b359cce6012df900bb891643
+469727087,Sally-twu/Deep-Learning,Python:1171;R:5018;Jupyter Notebook:271239,ce96b8b79180dda8dd4454e881790e4320ccf91b
+789932647,xavdid/exercism,PowerShell:1817;Python:35567;Visual Basic .NET:15553;Shell:108889;JavaScript:11757;jq:2391;Clojure:14984;COBOL:697;Elixir:57313;Just:469;Rust:137967;Ruby:19563;Julia:9819;Swift:17238;Wren:14749;Go:61795;WebAssembly:8918;Lua:13135,341ba5c9fd656c83a53cac4470e45a574b37ac87
+738652127,nevetto/Stroke_predictions,JavaScript:23787;CSS:5032;HTML:361;Python:33950;Jupyter Notebook:1935937,d5208d643d7e55ed371ca64ee343087141f35d7c
+353362618,ShanmukhaSaiPrakashUriti/MLAI,Python:12552;Jupyter Notebook:5278168,0216bae66a3868ff783b41acdefc7579bda026f8
+340955324,gordon647/Gasabo-business,Hack:20744;CSS:2446;Python:382;PHP:40751;JavaScript:5540,7029b1bc9686568ea2a2b0d1bbdbf464d9948b95
+630880997,Githubjosmy/Multivendor-Restaurant,CSS:980088;Python:21555;PowerShell:19206;Batchfile:1386;HTML:33054;JavaScript:1574451,a66ddef1e845516a2b0aa6d20c623dba9aadb056
+724420183,Jaybee-01/alx-higher_level_programming,Shell:1245;C:14313;JavaScript:13726;Python:184625,86fd8585282d9c9f26a4a70004e87e2f159330c7
+669723790,arendMoerman/tiempo2,CMake:2330;Python:102889;C:4909;Cuda:34876;TeX:1479;C++:51334,a2a1c6fbdfc6c95542c4fe2de5d0163dad4fdb50
+557723563,python-hacked/bluetickhrm,C:49447;JavaScript:433840;HTML:541507;PowerShell:25697;SCSS:668881;Python:24089999;Shell:769;Batchfile:1362;CSS:613310,1fdc54433fb6188e570b0247e17c746597ecab89
+21684460,nickpresta/chameleon,Go:25738;Makefile:614;Shell:1000;Python:8697,e27d43b04abddb6de4fe330201dfe8c35bd02ce2
+430956669,ZhaoChuyang/char-structure,Python:297066;Shell:1950,ea78251da35723cd24ed4b9c73c5f27ebfefbe22
+564084015,UF-Xie-Lab/TDMD-in-Drosophila,R:483;Python:118164,f6a93f76ed3b98447addad0f3195e499a512c246
+332934941,azufre/Scrapy,Python:1545,087877be1c9716109978be284ea74e2a47e9b522
+41652700,imharrywu/v8,Makefile:234134;Batchfile:1311;Assembly:1133;CMake:27212;Objective-C++:1873;Shell:38743;C:54246;Swift:116;CSS:1167;Objective-C:19253;Emacs Lisp:14357;HTML:9844;JavaScript:18527570;Python:2844702;C++:54968310,b50b7d8738cba5e2a4865b381185f646a96c872c
+822721937,r-spiewak/python_template,Python:7541;Shell:16267,d433d084aae30a6fb30092bda6ac9527a5574396
+580593389,Sahithium-Z/g4c,GDScript:20024;Python:3691,c17446bb71fd96003f9bef73ec33068ee2e8fa63
+225857556,enric1994/detectron-api,Python:2542;Dockerfile:976,924d3dce8e67870372b0836de20f4c366353b60e
+650259708,JYULAB/NKX2-1_NEPC_project,Shell:38123;R:241831;Python:8173;Jupyter Notebook:43868,1a7a376d9ce4b46c046ed8a338143dd5a4479288
+244734960,DrJessop/SDNetTransferLearning,Python:48306,bc4598524c3878d35fe5bfe7797045b65f046292
+295355706,tana1024/covid19-tana-web-api,Python:11014,80eb50d689855a08ebb93f89b78cabcfdefa680e
+300610532,Mattchaup/extreme_pendu,Python:8411,616128cc9011026f87fefac928c8b62f70382890
+19021683,tbirdsaw/xyz-tools,Python:9419;HTML:101983142,d1c083f0252f853a33be3aa4ef3ee316e46f30f9
+244249819,priyanmuthu/PaperCode,HTML:26482;JavaScript:35115;TypeScript:694051;Python:123062,444e534c42cea5eabd3ee46455d55a76e2602221
+271615593,ambimorph/zkanki,Python:17477,e2382370373e3c26ffafdf6a5f51459bae674311
+402076277,mrjohannchang/cycu-clock-in-clock-out-desktop,Python:59338,61715bd02b7ee646650294d21902d6cb3fc8c6e7
+3975068,collective/collective.portlet.actions,CSS:164;Python:33934,2839da1d5215b80ded58ada167c310da4cc9f41a
+681870533,dagster-io/mdsfest-opensource-mds,Makefile:334;Python:15057,31c02ca1cb53387f950de635939ae7c9aa0a993b
+387881071,rosetta-rs/argparse-rosetta-rs,Python:8990,71c1ecd88b2158bb77d2c91e3f3db1fe893e9e68
+67305961,TomCasavant/CASGame,Python:10844;TeX:134137,fb81d35b178ba922a686901e10c8bcf588a1a22c
+463343737,evlachos93/Non-Markovian-Noise-Project,Python:400522;C++:18623;C:29949;HTML:100145;Jupyter Notebook:13371630,ede8bf06b1f24654da0d11d54dbb0fb749005a93
+161206120,juharris/textworld-bots,Shell:118;Python:56743;Dockerfile:296,c58d5418b1d00b00136a7073e0e87ee785eaea06
+264003941,DehNutCase/Compiler-Class,Yacc:2529;Lex:268;C:62904;Python:89373;Makefile:1189,800eaf9199c0ef528c805462d4e572fb24f5064e
+38124151,eugenebike/eugenebike.github.io,Python:12901;JavaScript:3601;CSS:294;HTML:876,630f6f6840b93b3a4cae82fc3f92fed9f99300a2
+829743320,physwizz/A245-U-u5,Roff:201155;SmPL:158894;Python:29850864;RPC:97869;UnrealScript:17732;AppleScript:1429;Perl:1234599;XS:52276;Clojure:1462;Pawn:252;Lex:63134;sed:379;Gherkin:8336;C:1015912590;Dockerfile:803;Emacs Lisp:32768;JavaScript:19464;Assembly:9499816;Starlark:635;NASL:157361;CSS:23932;Yacc:120529;Tcl:52315;Awk:45941;M4:320157;Ruby:324;XC:52239;CMake:459805;Shell:2881562;Batchfile:75;Makefile:2754664;C++:51506658;XSLT:57416,491e7bcdf5c41f698e5ea5ed25c5d225e71c9e42
+573144499,tmartinfr/advent_of_code,Python:77764;PHP:1480,0bd4a2b9a92c19d395cf8bb0cb21bd5a452be2f2
+255470217,verbose-void/PAGNNs,Python:65803;Jupyter Notebook:4841,b5eaefdfc580eefac18f566e43d541a1af8434db
+582320898,MrE-Fog/pykrb5qqa,Python:103275;Cython:72733;C:1048841;C++:15015;Shell:3217,895f74b931cee90f30aba81bd4349618b7fe2a56
+338500671,Aadil313/Aadil,Python:20236;CSS:662;HTML:13452,b4829032a109ab7903a4deddb30a10d60c030745
+228160506,RobertSong199972/myproject,Python:7677;C++:1,05156bd9a6e1a7f503ad4c21421380fe753b17c8
+319625542,xtarke/cncs,Python:10830;C:23775;G-code:3297718,8d96206e7a761000f044bed92ba94e14c5c4da0d
+340816492,MoeruPhoenix/MyWaterMeter,Python:13495;CSS:27331;HTML:38820;JavaScript:8109,ae348185562d3e97a9f4d7f27afe764ed62c3359
+610561225,kooweajeeI/miniprojects,HTML:479109;Python:56762;C#:85676,1fe5821bc5f136afa26678779c53e6dabb7677b0
+737511617,odadingmantap80/eiusmod,TypeScript:28341;Python:20952,b903b3e7bf1d541ec763beb7c97a7f4ce8461e46
+412109853,OliverEichmueller/TSC_Science2021,R:85545;Python:1654,02ac11d15c74a6cea8af2b8fe57b9668149bcdc8
+660964894,VolkanSah/OpenAI-Cost-Calculator,JavaScript:788;Python:1063,c0d4a55c58006f81a3fdc6f7050af7e31f5eb080
+405772239,bruno-albino/tcc-ifsp,Python:27660,eb5f40df2d15ce41014f6ee4204a510b42ed67cb
+118961249,SSDeepthiKatta/Python,HTML:555726;MATLAB:4346;C++:942367;Jupyter Notebook:16254;Python:60732231;Smarty:2045;TeX:37261;Makefile:214;CSS:5382;C:1412313;Fortran:23230;PowerShell:24525;JavaScript:24702;Tcl:3885210;Batchfile:3738,99262e1f53617d2ea1d64fe2e8ddf9fced51426b
+227070627,BeachBoulevard/bookstore,JavaScript:116211;CSS:90599;Python:27069;HTML:7137;Dockerfile:288,450547a41d830bf08570203ad89d9b0713b061a8
+708701401,SINGROUP/ml-spm,C++:20015;Cuda:20046;Python:500494;Shell:6235;TeX:8718,6cce1cea306d5f2acac6b8f4a28c8d0d930ac8d6
+558329102,ZIHCO/alx-system_engineering-devops,Python:4036;Puppet:2810;Ruby:640;Shell:15445,8992fec776630746c2eafd0577e82e72eab7be8a
+532261202,AndrewSae/Pi-Robot,JavaScript:717;Python:5804;CSS:521;HTML:5293,1520d8df1dbf472682a50b9870bfbea243543b9e
+236216302,ahuiban/SEI.workInClass,PLpgSQL:200622;CSS:37057;TSQL:160362;Shell:3728;Python:9362;JavaScript:268846;HTML:85901;Ruby:330986,12e3803e7787b8d61f65bfbd3ecb8af9dd98fb5b
+392923853,datawhales/Korean_KG,Jupyter Notebook:4823139;Python:15898,962cff1aa1eb3e33aefa704044bce4e1da2fd80a
+410220909,leSamo/Secret-ICMP-channel,C++:20876;Python:2394;Roff:1067;Makefile:163,ff0cb7c74d0d93b28745bc79dfe4d706e01c3b3e
+643011871,CoderJeffrey/exact-match-backend,JavaScript:14084;Python:4624;Procfile:60;EJS:19698,0d743695139b9d4d51c0bac26ac4798235f285dc
+613213240,wacoo/cheapr-project,CSS:8648;HTML:30946;Python:28796;JavaScript:17394,61124902067be2621613b698216cfdd85f16d9a4
+718102826,CodeFishCorporation/CodeFish,JavaScript:4038;Python:780;CSS:19620;HTML:14315,eef6a84837f8a95a5fa4ac82b3963c4bf095f4a5
+233070174,moonheart/deeplearning,Python:57765,cf504ce4cfb7f497e08cbb27e99608f5bfcd879a
+708470887,hirvonensara/mlflow-demo,Jupyter Notebook:38023;Python:6577,1993e4b930dd41c9bd5a535b1b28e03c73ed4684
+611679189,darijo/360-Video-DASH-Dataset,Python:12961,d09eac01132cd2ce401d25cbbba8c568306362d7
+187893542,LLabonte94/Coursera_Capstone,Python:23;Jupyter Notebook:1716140,31cf3fc64700e55e0154db0cadbad12980f8b3e7
+14129832,BMClab/BMC,Jupyter Notebook:26659747;Python:306323,c2a44721272c68dca776758f26d2a459f0033499
+294813594,ovclid/python,Jupyter Notebook:1228;Python:44789,a260566d1a087fd5786ce82d606d8131cc1b5783
+39905754,murex/murex-coding-dojo,Haskell:7352;Go:2779;Ruby:28767;C#:1837;Erlang:1488;JavaScript:2970;Java:294484;Python:18370;CoffeeScript:1417;Rust:2953;Scala:1065,7e84cc971f6716d9ff2c3cbf22c11cfe93d8d275
+391829811,sudo-phantom/shcanner,Dockerfile:331;Shell:1617;Python:5330,d75b5885eae6d1ed844420c6336c1caffe8612ff
+730358541,boiko88/vr_planet,Python:13755;HTML:11692;CSS:4213,b370b9f195580b6284db674fdf9e465a23f9e88e
+726697627,nasttymain/SecondLF,C++:5078;Python:73597;Batchfile:1466,d66d73ad016cbbd9b598706c4e88e27f0845a00e
+775476860,gquinteroum/compu2_um_2024,Dockerfile:488;C:2342;Python:60182;Jupyter Notebook:1354555;Assembly:12164;HTML:5376,810348a935e7f1f43859e788bc45c8af9097b0bb
+598676278,Lantty623/pie_ythons,Java:65438;Kotlin:34884;Python:7415,426da95c0edbc71fd6b1ed099816986285d74e28
+286985222,Rwik2000/Autonomous-Car,Python:273571,8573bc3868a1dd549e3db7239ceccf96ca225c21
+174233110,yui0204/keras_environmental_sound_segmentation,Python:228085,95e27deace396e8fe8c641bdfc906eddf8f172a5
+704716381,nico-ig/UDP-Video-Streaming,HTML:6542;Python:55248,61e279067d92235fb7503df2b04ba1fbeb5c296f
+415815624,Jiwoo717/MyRepo,HTML:2881;CSS:1877;Python:5559,59564fef4d427f5f44ca98867d1b059095a5551c
