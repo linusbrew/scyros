@@ -1,0 +1,726 @@
+id,name,language,functions,functions_with_kw,keywords/globals.json,keywords/builtins.json,keywords/global.json,keywords/inspect.json,keywords/locals.json,keywords/nonlocal.json,parse_error
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/command/egg_info.py,python,52,0,0,0,0,0,0,0,none
+405153059,tot_projects/0/405153059-2ccc80789143d7361a14735d5884830688a4e4b4/microsoft-building-damage-assessment-cnn-siamese-2ccc807/train/train.py,python,16,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/pwd.py,python,29,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/dialects/oracle/provision.py,python,8,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/six.py,python,62,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/virtualenv/create/via_global_ref/api.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/doctest.py,python,97,4,1,0,3,0,0,0,none
+133431126,tot_projects/0/133431126-cc270113da3f429cebdbe806aa665c1a47ccf0c1/charlesq34-pointnet-autoencoder-cc27011/train.py,python,7,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/tasks.py,python,39,2,0,0,0,0,0,2,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/bdist_egg.py,python,23,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_pswindows.py,python,80,2,0,0,2,0,0,0,none
+371602227,tot_projects/0/371602227-f707235c1f9236a86da44b45a06f2e9d7d094ed4/JaideepPrasad-Data-Science-f707235/Deep Learning/ASL Translator/app.py,python,6,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/commands/freeze.py,python,2,0,0,0,0,0,0,0,none
+707007935,tot_projects/0/707007935-41883daa0af4cbca591c985721c84a0f00bc00e1/daixd5520-LLM-benchmark-41883da/LLaMA2-7B-chat/example_chat_completion.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/simplejson/encoder.py,python,10,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/orm/session.py,python,95,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/autocomplete.py,python,11,1,0,1,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/versionpredicate.py,python,5,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/utils/pbkdf2.py,python,3,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_pslinux.py,python,76,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/dist.py,python,58,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/colorama/initialise.py,python,6,1,0,0,1,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/blog/wordpress.py,python,25,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/handlers/django.py,python,18,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/utils/urischemes.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/alias.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pickle.py,python,124,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/writers/__init__.py,python,7,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/linecache.py,python,6,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/http/server.py,python,38,1,0,0,1,0,0,0,none
+405153059,tot_projects/0/405153059-2ccc80789143d7361a14735d5884830688a4e4b4/microsoft-building-damage-assessment-cnn-siamese-2ccc807/inference/inference.py,python,10,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/html5lib/_tokenizer.py,python,73,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/platform.py,python,34,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/metadata/__init__.py,python,7,0,0,0,0,0,0,0,none
+429142370,tot_projects/0/429142370-8c28dab0627f5fb70fb9260cb89d18620c4f305a/guelate-Cryptosyst-me_DH-Morse-8c28dab/client.py,python,7,4,0,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/context.py,python,45,2,2,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/setopt.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/utils/menu.py,python,2,1,0,0,1,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt4/Webserver.py,python,8,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/mailbox.py,python,184,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/shell.py,python,10,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/int_fiction.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/distlib/wheel.py,python,33,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Practice/multiagent/multiAgents.py,python,21,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/virtualenv/create/via_global_ref/builtin/cpython/cpython2.py,python,10,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/orm/instrumentation.py,python,53,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/context.py,python,88,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/util.py,python,48,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/recompiler.py,python,96,0,0,0,0,0,0,0,none
+68907634,tot_projects/0/68907634-eea28f64ad459e7a2be5606ed47617bdf78815fa/collective-plonefr-eea28f6/src/plonefr.theme/src/plonefr/theme/testing.py,python,20,1,1,0,0,0,0,0,none
+371602227,tot_projects/0/371602227-f707235c1f9236a86da44b45a06f2e9d7d094ed4/JaideepPrasad-Data-Science-f707235/Deep Learning/ASL Translator/helper.py,python,5,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/vengine_cpy.py,python,51,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/layout.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/cli/main_parser.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pytz/__init__.py,python,30,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_psbsd.py,python,55,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tkinter/ttk.py,python,118,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/email/charset.py,python,13,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/paramiko/server.py,python,30,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/stackviewer.py,python,15,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/fixes/fix_execfile.py,python,1,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site.py,python,23,4,0,0,4,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_vendor/typing_extensions.py,python,149,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/alembic/context.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/warnings.py,python,26,2,1,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pkg_resources/__init__.py,python,251,6,6,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/utils/setuptools_build.py,python,6,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/cli/main_parser.py,python,2,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py,python,28,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask_security/views.py,python,23,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/locations/base.py,python,4,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/matlab.py,python,2,0,0,0,0,0,0,0,none
+133431126,tot_projects/0/133431126-cc270113da3f429cebdbe806aa665c1a47ccf0c1/charlesq34-pointnet-autoencoder-cc27011/utils/show3d_balls.py,python,2,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/logging/config.py,python,36,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/six.py,python,60,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/inspect.py,python,129,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/python.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/distlib/wheel.py,python,33,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/modulefinder.py,python,31,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/typing.py,python,109,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/smtpd.py,python,58,2,1,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/meta.py,python,5,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/cli/main_parser.py,python,3,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/__init__.py,python,5,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/commands/configuration.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/virtualenv/info.py,python,2,2,0,0,2,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/scripts/python/sched-migration.py,python,64,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dateutil/rrule.py,python,50,4,0,0,4,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/scripts/gdb/linux/utils.py,python,14,4,0,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/plistlib.py,python,72,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/connectors/mxodbc.py,python,10,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/macosx.py,python,13,1,0,0,1,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/scripts/gdb/linux/modules.py,python,6,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/graphicsUtils.py,python,35,14,0,0,14,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/html.py,python,5,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/commands/__init__.py,python,2,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/core.py,python,4,2,0,0,2,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/application.py,python,19,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/browser.py,python,20,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/opcode.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/symtable.py,python,42,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/runtime.py,python,65,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/commands/list.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/utils/misc.py,python,64,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/msvc9compiler.py,python,27,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/penrose.py,python,12,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/sql/sqltypes.py,python,139,0,0,0,0,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt3/RpiWebserver.py,python,7,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py,python,27,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/bdist_egg.py,python,22,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/mako/ext/beaker_cache.py,python,6,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/_pyio.py,python,189,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/objective.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tkinter/filedialog.py,python,29,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/network/auth.py,python,24,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/wheel_builder.py,python,12,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/ecl.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/parsers/rst/languages/__init__.py,python,1,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_psaix.py,python,43,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/helpers.py,python,30,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/selectors.py,python,43,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/_dummy_thread.py,python,16,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/resolution/resolvelib/factory.py,python,20,0,0,0,0,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt5/Interface.py,python,11,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/virtualenv/create/via_global_ref/builtin/python2/site.py,python,10,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/ldap3/utils/config.py,python,2,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/egg_info.py,python,55,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/build_meta.py,python,29,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/easy_install.py,python,109,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW1/util.py,python,49,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/xmlrpc/server.py,python,43,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/graphicsDisplay.py,python,52,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/pytree.py,python,64,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/filelist.py,python,18,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/utils/temp_dir.py,python,15,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/hdl.py,python,0,0,0,0,0,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/core/test_engine.py,python,10,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW3/trackingTestClasses.py,python,40,3,3,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/arg_parser.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/urllib3/util/timeout.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/sre_parse.py,python,36,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pycparser/ply/yacc.py,python,106,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/crystal.py,python,2,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/wheel_builder.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/runpy.py,python,14,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/graphicsCrawlerDisplay.py,python,18,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/clock.py,python,9,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/praat.py,python,0,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/sysconfig.py,python,16,4,2,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/importlib/_bootstrap.py,python,72,4,2,0,2,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Practice/multiagent_sol/multiagent/multiAgents.py,python,8,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/requirements.py,python,150,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/alembic/op.py,python,0,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/scripts/python/export-to-postgresql.py,python,22,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/crypto/_blowfish/base.py,python,8,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_postgres_builtins.py,python,5,0,0,0,0,0,0,0,none
+234945723,tot_projects/0/234945723-f8961b7da0fb3c4c6a5ae83a65d3fbacdd86baa9/xsolinsx-AISashaBot-f8961b7/plugins/mandatory/check_msg.py,python,36,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/__init__.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/writers/odf_odt/__init__.py,python,276,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/asm.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/cli/cmdoptions.py,python,26,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/config/_apply_pyprojecttoml.py,python,23,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/utils/driver/psycopg2/keywords.py,python,1,0,0,0,0,0,0,0,none
+707007935,tot_projects/0/707007935-41883daa0af4cbca591c985721c84a0f00bc00e1/daixd5520-LLM-benchmark-41883da/Baichuan2-7b-chat/modeling_baichuan.py,python,38,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/sas.py,python,0,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pygments/unistring.py,python,3,2,2,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/murphy.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/fixer_util.py,python,33,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/certifi/core.py,python,7,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/languages/__init__.py,python,1,1,1,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/graphicsDisplay.py,python,52,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Practice/multiagent/util.py,python,49,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/parsers/__init__.py,python,4,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/rdtypes/dnskeybase.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/collections/__init__.py,python,172,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/verifier.py,python,22,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/configuration.py,python,24,2,0,0,2,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/_osx_support.py,python,16,1,0,0,1,0,0,0,none
+108924214,tot_projects/0/108924214-eb57d054ce9041054d921daf31850d6259d8bfcf/masamitsu-murase-wmi_device_manager-eb57d05/wmidevicemanager/wmidevicemanager.py,python,15,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/babel/core.py,python,59,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/profile.py,python,31,4,4,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/distlib/wheel.py,python,34,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/http/cookiejar.py,python,93,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/factor.py,python,0,0,0,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/hooks.py,python,4,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/commands/debug.py,python,11,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/dialects/oracle/zxjdbc.py,python,17,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/config/_validate_pyproject/fastjsonschema_validations.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/setup.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/paraiso_dark.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/ext/mutable.py,python,54,0,0,0,0,0,0,0,none
+455259988,tot_projects/0/455259988-0a8dd8033445129876aa932c0de04b98185afb5e/andrebsilva-python-learn-0a8dd80/Part_01/004-Variables/01_var_definition.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/pool.py,python,70,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/urllib3/packages/six.py,python,60,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/_compat.py,python,74,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/hashlib.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/concurrent/futures/thread.py,python,9,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/debugger_r.py,python,55,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pygments/token.py,python,9,0,0,0,0,0,0,0,none
+190599005,tot_projects/0/190599005-bf28484686af5d191c4295503f89b1890f211d3a/OspreyInterns-ReportGeneration-bf28484/sales_data.py,python,3,1,0,0,1,0,0,0,none
+190599005,tot_projects/0/190599005-bf28484686af5d191c4295503f89b1890f211d3a/OspreyInterns-ReportGeneration-bf28484/DyeMinish_data.py,python,10,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/business.py,python,0,0,0,0,0,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/modeling/model_builder.py,python,45,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/debug/__init__.py,python,18,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/scripting.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/logging.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/enum.py,python,59,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/logging/__init__.py,python,145,3,0,0,3,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt4/Interface.py,python,10,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/paramiko/util.py,python,21,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/cffi_opcode.py,python,5,0,0,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/scanning.py,python,94,1,0,0,0,0,0,1,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_msgs/src/corobot_msgs/msg/_PosMsg.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/stata_dark.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tkinter/__init__.py,python,506,5,0,0,5,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/dotnet.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/ext/declarative/base.py,python,32,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgAdmin4.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/easy_install.py,python,114,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/urllib/parse.py,python,66,4,0,0,4,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_msgs/src/corobot_msgs/msg/_GPSFix.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/flags.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/http/client.py,python,63,0,0,0,0,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_teleop/src/corobot_teleop/msg/_GPSPoint.py,python,6,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/command/check.py,python,9,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/build_clib.py,python,1,0,0,0,0,0,0,0,none
+464538719,tot_projects/0/464538719-904c22bf520e7a4b6198ede2dde9509bded226fa/LisaGiordani-Tracking-904c22b/Tracking_Hough_compute.py,python,4,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sphinxcontrib/serializinghtml/__init__.py,python,6,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py,python,21,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/handlers/sun_md5_crypt.py,python,6,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/run.py,python,39,7,0,0,7,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/xml/sax/__init__.py,python,5,1,1,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/dist.py,python,63,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_openedge_builtins.py,python,0,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/distlib/_backport/tarfile.py,python,129,0,0,0,0,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt7/mqttserver.py,python,8,3,0,0,3,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/scripts/python/compaction-times.py,python,37,2,0,0,2,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_msgs/src/corobot_msgs/msg/_state.py,python,6,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/graphicsUtils.py,python,35,14,0,0,14,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/sql/annotation.py,python,16,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/parasail.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/staggered.py,python,1,1,0,0,0,0,0,1,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/__init__.py,python,1,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/warnings.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psycopg2/_ipaddress.py,python,5,1,0,0,1,0,0,0,none
+455259988,tot_projects/0/455259988-0a8dd8033445129876aa932c0de04b98185afb5e/andrebsilva-python-learn-0a8dd80/Part_03/003-Built-In/36_globals.py,python,1,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/testing.py,python,20,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/csound.py,python,2,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/pyparsing.py,python,333,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/sql.py,python,12,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/concurrent/futures/process.py,python,29,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/environment.py,python,65,11,11,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_psosx.py,python,46,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/processors.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/blueprints.py,python,32,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/build_ext.py,python,18,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/sysconfig.py,python,21,3,1,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cryptography/hazmat/backends/__init__.py,python,1,1,0,0,1,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW3/bustersAgents.py,python,20,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/types.py,python,29,1,0,0,0,0,0,1,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/util.py,python,18,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/automation.py,python,0,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/arch/ia64/scripts/unwcheck.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/unittest/mock.py,python,150,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/graphicsGridworldDisplay.py,python,18,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/ext/declarative/clsregistry.py,python,28,1,1,0,0,0,0,0,none
+220156306,tot_projects/0/220156306-ece876bfae32c5051a3749e53bec65df90261891/napoler-Synonymous-sentence-ece876b/train.py,python,15,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/lexer.py,python,35,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/mako/exceptions.py,python,16,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/dbm/dumb.py,python,21,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/build_ext.py,python,24,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_tsql_builtins.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/re.py,python,20,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/loaders.py,python,28,4,4,0,0,0,0,0,none
+464538719,tot_projects/0/464538719-904c22bf520e7a4b6198ede2dde9509bded226fa/LisaGiordani-Tracking-904c22b/Tracking_Hough_display.py,python,2,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/pastie.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask_wtf/csrf.py,python,15,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/views.py,python,4,0,0,0,0,0,0,0,none
+601906241,tot_projects/0/601906241-38385e8e4cf465dffe7e0db7f5e1246d171a9e08/chrishamblin7-circuit_explorer-38385e8/lucent_circuit/util.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/symbol.py,python,0,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/utils/temp_dir.py,python,15,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py,python,26,3,1,0,2,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt4/MQTTServer.py,python,9,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/distlib/_backport/sysconfig.py,python,26,3,1,0,2,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/graphicsUtils.py,python,35,14,0,0,14,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/unicon.py,python,0,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/searchAgents.py,python,35,1,1,0,0,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt8/ops.py,python,14,2,0,0,2,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/scripts/gdb/linux/tasks.py,python,9,1,0,0,1,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/utils/logging.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/__init__.py,python,0,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/distro.py,python,53,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/d.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/imaplib.py,python,93,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/arduino.py,python,0,0,0,0,0,0,0,0,none
+464538719,tot_projects/0/464538719-904c22bf520e7a4b6198ede2dde9509bded226fa/LisaGiordani-Tracking-904c22b/Tracking_MeanShift_display.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/message.py,python,61,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/round_dance.py,python,2,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/commands/freeze.py,python,2,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/scripts/python/net_dropmonitor.py,python,6,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/locations.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/plugin/plugin_base.py,python,45,7,0,0,7,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/fixes/fix_exitfunc.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/parsers.py,python,31,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tabnanny.py,python,16,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/utils.py,python,29,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/utils/driver/psycopg2/connection.py,python,43,0,0,0,0,0,0,0,none
+68907634,tot_projects/0/68907634-eea28f64ad459e7a2be5606ed47617bdf78815fa/collective-plonefr-eea28f6/src/plonefr.theme/src/plonefr/theme/__init__.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/venv/__init__.py,python,15,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/plugin/pytestplugin.py,python,23,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/connection.py,python,73,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py,python,1,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/qlearningAgents.py,python,15,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/crypt.py,python,4,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/ldap3/protocol/schemas/slapd24.py,python,0,0,0,0,0,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/core/config.py,python,13,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/pep517/_in_process.py,python,10,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/sre_constants.py,python,5,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/sql/__init__.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/uuid.py,python,47,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/unittest/signals.py,python,6,2,0,0,2,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/tests/data_loader_benchmark.py,python,3,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/__init__.py,python,1,1,1,0,0,0,0,0,none
+168190339,tot_projects/0/168190339-0d0c10121cc62a0a30eb77a10a5a95aa99a43cfb/UO-CIS211-Duck_Sudoku-0d0c101/graphics/graphics.py,python,116,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/edns.py,python,24,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/utils/math/math2html.py,python,469,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/commands/debug.py,python,11,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/__init__.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/cparser.py,python,37,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/launch.py,python,1,1,0,1,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/graphicsDisplay.py,python,52,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/paramiko/config.py,python,24,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pkg_resources/_vendor/six.py,python,57,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/__init__.py,python,91,4,0,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/filelist.py,python,16,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/parsers/rst/directives/__init__.py,python,22,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/update.py,python,17,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/cgitb.py,python,12,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/api.py,python,51,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/sre_compile.py,python,17,1,0,0,0,0,0,1,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/__init__.py,python,1,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/versionpredicate.py,python,5,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/zipfile.py,python,108,1,0,0,1,0,0,1,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/utils/lr_policy.py,python,6,1,1,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/commands/configuration.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/socket.py,python,47,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/msvc9compiler.py,python,27,0,0,0,0,0,0,0,none
+190599005,tot_projects/0/190599005-bf28484686af5d191c4295503f89b1890f211d3a/OspreyInterns-ReportGeneration-bf28484/rods_rockin_data.py,python,5,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/rcode.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/signal.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/tools/backup/__init__.py,python,14,4,4,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/btm_matcher.py,python,7,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cryptography/hazmat/bindings/openssl/binding.py,python,10,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/query.py,python,27,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/dist.py,python,63,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/pyparsing.py,python,305,0,0,0,0,0,0,0,none
+141088655,tot_projects/0/141088655-89a8aa0d5e9763a32ba49c04a81746e0be7cd973/howdykevin-Python-89a8aa0/Python_project4(desktop app)/Python_project4(desktop app)/desktop_appTK.py,python,7,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/julia.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tarfile.py,python,116,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/keyword.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/_py_abc.py,python,8,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/six.py,python,65,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/dialects/oracle/base.py,python,96,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/alias.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/json/__init__.py,python,14,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/game.py,python,55,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/_internal.py,python,19,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_mysql_builtins.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/cProfile.py,python,13,2,2,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW3/busters.py,python,50,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/ext/instrumentation.py,python,48,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tempfile.py,python,61,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask_security/core.py,python,76,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/asyncresolver.py,python,8,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/build_meta.py,python,17,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/cli/parser.py,python,18,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/commands/list.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/token.py,python,3,0,0,0,0,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/datasets/cityscapes_json_dataset_evaluator.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/varnish.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/idle_test/test_configdialog.py,python,88,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/ctx.py,python,26,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psycopg2/_lru_cache.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/rebol.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/cgi.py,python,43,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/idle_test/htest.py,python,1,1,1,0,0,0,0,1,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/functools.py,python,45,2,0,0,0,0,0,2,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/distlib/resources.py,python,33,1,0,0,1,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/roi_data/data_utils.py,python,3,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/crypto/des.py,python,10,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/apl.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/globals.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/php.py,python,5,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/dir_util.py,python,6,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/configdialog.py,python,80,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/paramiko/common.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/templating.py,python,11,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/distlib/manifest.py,python,12,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dateutil/tz/tz.py,python,82,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pickletools.py,python,35,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/scripts/gdb/linux/cpus.py,python,8,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/speaklater.py,python,30,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/build_clib.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/mako/codegen.py,python,51,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/idle_test/test_tooltip.py,python,14,4,0,0,4,0,0,0,none
+464538719,tot_projects/0/464538719-904c22bf520e7a4b6198ede2dde9509bded226fa/LisaGiordani-Tracking-904c22b/Tracking_MeanShift_updates.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/fileinput.py,python,29,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/tools/debugger/__init__.py,python,34,0,0,0,0,0,0,0,none
+6443219,tot_projects/0/6443219-0af2d7e438accd01a0d6d5763b7a3211dc246f00/simkovic-Chase-0af2d7e/code/Coord.py,python,19,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/windows_utils.py,python,10,0,0,0,0,0,0,0,none
+707007935,tot_projects/0/707007935-41883daa0af4cbca591c985721c84a0f00bc00e1/daixd5520-LLM-benchmark-41883da/ChatGLM2-6B/cli_demo.py,python,3,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/filelock.py,python,24,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlparse/keywords.py,python,1,0,0,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/eyetracker/camera/hpe/marker-detector/logger.py,python,6,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/utils/egg_link.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_pssunos.py,python,47,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/utils/handlers.py,python,105,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/replay_fixture.py,python,16,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/token.py,python,9,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab01/tutorial/textDisplay.py,python,13,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/game.py,python,55,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/debughelpers.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/posixpath.py,python,20,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/command/bdist_egg.py,python,22,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/alembic/autogenerate/render.py,python,47,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/sched.py,python,12,0,0,0,0,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_msgs/src/corobot_msgs/msg/_RangeSensor.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/distlib/compat.py,python,77,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/locations/base.py,python,3,0,0,0,0,0,0,0,none
+710344635,tot_projects/0/710344635-e68a761565e967d9b31efc2b8dc83b75f9461265/Rahdyce-Robotics--e68a761/PRODUCTION/FLAGBOAT.py,python,5,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/pep517/in_process/_in_process.py,python,23,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/dist.py,python,64,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/rdataclass.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/javascript.py,python,4,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/req/req_install.py,python,39,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/wrappers/base_response.py,python,31,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/sorting_animate.py,python,23,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/os.py,python,59,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/dnssec.py,python,24,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/traceback.py,python,11,1,0,0,0,0,0,1,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/cli/cmdoptions.py,python,28,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/depends.py,python,10,1,1,0,0,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt3/main.py,python,4,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/cli.py,python,32,1,1,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/scripts/python/cs-trace-disasm.py,python,5,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/alembic/testing/plugin/plugin_base.py,python,10,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pycparser/ply/lex.py,python,42,1,0,0,1,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/eyetracker/camera/hpe/marker-detector/marker_detector/tests/test_corners_position.py,python,6,5,0,0,5,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/importlib/_bootstrap_external.py,python,106,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/colorful.py,python,0,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/depends.py,python,10,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/_vendor/pyparsing/testing.py,python,12,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/game.py,python,55,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/_sitebuiltins.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/monokai.py,python,0,0,0,0,0,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/modeling/ResNet.py,python,15,2,2,0,0,0,0,0,none
+710344635,tot_projects/0/710344635-e68a761565e967d9b31efc2b8dc83b75f9461265/Rahdyce-Robotics--e68a761/PRODUCTION/FLAGSHIP.py,python,12,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pdb.py,python,89,7,5,2,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/dist.py,python,67,0,0,0,0,0,0,0,none
+133431126,tot_projects/0/133431126-cc270113da3f429cebdbe806aa665c1a47ccf0c1/charlesq34-pointnet-autoencoder-cc27011/models/model_hierachy.py,python,3,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/utils/deprecation.py,python,5,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/ldap3/core/server.py,python,22,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/cmd.py,python,30,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/scripts/build-all.py,python,29,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/events.py,python,95,2,0,0,2,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW4/qlearningAgents.py,python,16,1,1,0,0,0,0,0,none
+141088655,tot_projects/0/141088655-89a8aa0d5e9763a32ba49c04a81746e0be7cd973/howdykevin-Python-89a8aa0/WebScraping_Assignment/news_archivist.py,python,9,5,0,0,5,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psutil/_common.py,python,36,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/assertions.py,python,43,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/utils/virtualenv.py,python,2,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/depends.py,python,10,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/cli/parser.py,python,17,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/mako/_ast_util.py,python,65,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/_vendor/pyparsing/core.py,python,254,1,0,0,1,0,0,1,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/debug/console.py,python,29,2,2,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/scripts/python/netdev-times.py,python,31,4,0,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/handlers/argon2.py,python,26,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/cli/parser.py,python,17,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/commands/configuration.py,python,11,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/debug.py,python,7,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/urllib/request.py,python,154,7,0,0,7,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/certifi/core.py,python,4,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/asyncbackend.py,python,4,1,0,0,1,0,0,0,none
+198152891,tot_projects/0/198152891-568f9ec942ed4f4365983f17d1d4b0f992250f3f/bkim724-master-568f9ec/login_system.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/timeit.py,python,9,3,3,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/html5lib/_tokenizer.py,python,73,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/stata_light.py,python,0,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab03/isearch/searchAgents.py,python,32,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/alabaster/support.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/msilib/__init__.py,python,39,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/commands/inspect.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/sidebar.py,python,21,1,0,0,0,0,0,1,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_msgs/src/corobot_msgs/msg/_videomode.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/idle_test/test_autocomplete.py,python,17,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/dialects/mysql/base.py,python,134,0,0,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/app_manager.py,python,11,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/distlib/compat.py,python,76,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/backend/src/shared_data.py,python,6,4,0,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/solarized.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/simplejson/__init__.py,python,8,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/build_meta.py,python,18,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_stata_builtins.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/misc/bgprocess/process_executor.py,python,23,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/command/egg_info.py,python,49,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/layout.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pkgutil.py,python,27,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/crypto/scrypt/__init__.py,python,8,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/gettext.py,python,46,3,0,0,3,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/commands/__init__.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/colormixer.py,python,4,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/prompt.py,python,18,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/textDisplay.py,python,13,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/debug/tbtools.py,python,32,3,3,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/mako/pyparser.py,python,20,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/commands/list.py,python,12,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/urbi.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/json/encoder.py,python,7,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/network/auth.py,python,11,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/perl.py,python,8,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pyparsing.py,python,333,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/app.py,python,78,2,2,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/misc/file_manager/__init__.py,python,45,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/urllib3/util/wait.py,python,9,1,0,0,1,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/phidget_motor/node/PhidgetMotor.py,python,15,8,0,0,8,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt6/mqttserver.py,python,8,3,0,0,3,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py,python,250,6,6,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/pyshell.py,python,88,3,0,0,3,0,0,0,none
+127101709,tot_projects/0/127101709-aa0ca66c23ba379efaa869d68db5670cc388f2e5/ZZYuting-car-detection-using-retinanet-aa0ca66/Detectron/detectron/core/rpn_generator.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/util.py,python,16,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/utils/deprecation.py,python,3,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/exceptions.py,python,23,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/concurrent/futures/__init__.py,python,2,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/req/req_install.py,python,37,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/pgen2/token.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/dataclasses.py,python,42,11,11,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/colorama/initialise.py,python,8,3,0,0,3,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/configuration.py,python,24,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_lasso_builtins.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/ftplib.py,python,56,2,0,0,2,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_msgs/src/corobot_msgs/msg/_GPSStatus.py,python,6,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/resolution/resolvelib/factory.py,python,20,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/sysconfig.py,python,27,2,1,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/apps.py,python,4,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pyasn1/debug.py,python,16,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/dialects/firebird/base.py,python,40,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/virtualenv/create/via_global_ref/builtin/cpython/mac_os.py,python,15,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/commands/wheel.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/wheel/bdist_wheel.py,python,12,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab05/multiagent/multiAgents.py,python,18,1,1,0,0,0,0,0,none
+6443219,tot_projects/0/6443219-0af2d7e438accd01a0d6d5763b7a3211dc246f00/simkovic-Chase-0af2d7e/code/Pixel.py,python,28,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/ext.py,python,30,3,3,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/paramiko/transport.py,python,108,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/installers.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/babel/localtime/_win32.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/lovelace.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/typoscript.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/testing/config.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/babel/messages/extract.py,python,8,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/ctypes/__init__.py,python,27,2,2,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/_vendor/pyparsing/helpers.py,python,16,1,0,0,0,0,0,1,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/flask/wrappers.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/orm/__init__.py,python,11,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/utils/deprecation.py,python,3,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/copyreg.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/tcl.py,python,2,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/utils/egg_link.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/exc.py,python,21,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/compiler.py,python,106,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab06/mdp/util.py,python,52,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/mimetypes.py,python,16,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/dir_util.py,python,6,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/command/bdist_msi.py,python,15,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/weakref.py,python,56,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/Documentation/target/tcm_mod_builder.py,python,14,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/_strptime.py,python,16,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/jinja2/sandbox.py,python,26,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/dbm/__init__.py,python,2,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/paraiso_light.py,python,0,0,0,0,0,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_teleop/src/corobot_teleop/msg/_GPSStatus.py,python,6,0,0,0,0,0,0,0,none
+234945723,tot_projects/0/234945723-f8961b7da0fb3c4c6a5ae83a65d3fbacdd86baa9/xsolinsx-AISashaBot-f8961b7/db_management.py,python,8,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/__main__.py,python,3,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/command/bdist_msi.py,python,14,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/util/langhelpers.py,python,95,3,2,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtle.py,python,214,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/ldap3/utils/log.py,python,16,4,0,0,4,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/spawn.py,python,5,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/logging.py,python,6,0,0,0,0,0,0,0,none
+464538719,tot_projects/0/464538719-904c22bf520e7a4b6198ede2dde9509bded226fa/LisaGiordani-Tracking-904c22b/Tracking_Hough_update.py,python,4,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pydoc.py,python,107,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/ldap3/core/pooling.py,python,20,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/handlers/bcrypt.py,python,30,4,0,0,4,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/core.py,python,3,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/dist.py,python,64,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/main.py,python,7,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/utils/session.py,python,27,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/msilib/schema.py,python,0,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/__init__.py,python,250,6,6,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/ext/django/models.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/filesystem.py,python,2,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/minimal_hanoi.py,python,7,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/theorem.py,python,1,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pygments/lexers/python.py,python,9,0,0,0,0,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/scripts/analyze_suspend.py,python,87,24,0,0,24,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/utils/setuptools_build.py,python,6,0,0,0,0,0,0,0,none
+363120109,tot_projects/0/363120109-da3e28f576ba284ffdfc498c8eab2d63c7420f83/devineniraghava-Recirculation-da3e28f/Recirculation.py,python,3,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/styles/tango.py,python,0,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/certifi/core.py,python,5,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/core.py,python,106,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/_virtualenv.py,python,8,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/rlcompleter.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pkg_resources/__init__.py,python,250,6,6,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/rdatatype.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/lib2to3/fixes/fix_next.py,python,5,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/util.py,python,32,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/bdb.py,python,59,3,3,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/lisp.py,python,11,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/command/setopt.py,python,7,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/console.py,python,106,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/psycopg2/errorcodes.py,python,1,1,1,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_internal/req/req_install.py,python,35,0,0,0,0,0,0,0,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt8/dummy.py,python,3,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/requests/status_codes.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/urllib3/util/timeout.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_internal/configuration.py,python,22,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/idle_test/test_textview.py,python,26,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sshtunnel.py,python,72,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/process.py,python,32,1,0,0,1,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_camera/src/corobot_camera/msg/_videomode.py,python,6,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/shutil.py,python,50,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/urllib3/util/connection.py,python,5,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW4/graphicsGridworldDisplay.py,python,18,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/readers/__init__.py,python,8,1,1,0,0,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_camera/src/corobot_camera/msg/_state.py,python,6,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/distlib/wheel.py,python,36,1,0,0,1,0,0,0,none
+15453819,tot_projects/0/15453819-592165e65a633dcb7e1446f3f8d5526ad88aaa4e/tomoki-config-592165e/.emacs.d/elpa/python-mode-6.0.10/completion/pycomplete.py,python,2,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_vbscript_builtins.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py,python,250,6,6,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/sandbox.py,python,40,1,1,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/unit.py,python,5,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_internal/utils/virtualenv.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/stata.py,python,0,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/threading.py,python,91,4,0,0,4,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/_vendor/pyparsing/__init__.py,python,3,0,0,0,0,0,0,0,none
+205039523,tot_projects/0/205039523-b24ee29d78a874bca431ceacb831e68ddcb19859/RKouchoo-LocalDLS-b24ee29/src/smserver/ccache.py,python,8,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/statistics.py,python,49,1,0,0,0,0,0,1,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/xml/etree/ElementTree.py,python,115,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/locale.py,python,31,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/dsls.py,python,6,0,0,0,0,0,0,0,none
+455259988,tot_projects/0/455259988-0a8dd8033445129876aa932c0de04b98185afb5e/andrebsilva-python-learn-0a8dd80/Part_03/003-Built-In/37_locals.py,python,1,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW1/graphicsUtils.py,python,35,14,0,0,14,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/basic.py,python,3,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW4/graphicsCrawlerDisplay.py,python,18,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/urllib3/util/connection.py,python,5,0,0,0,0,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/dirs.py,python,11,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/zipimport.py,python,30,2,0,1,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/config.py,python,46,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/ifc.py,python,11,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pyparsing/__init__.py,python,3,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/_scilab_builtins.py,python,1,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/pascal.py,python,2,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/layout.py,python,14,1,0,0,1,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/_distutils/cmd.py,python,30,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/status.py,python,9,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/dylan.py,python,2,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/unistring.py,python,3,2,2,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/werkzeug/utils.py,python,25,1,1,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/pacmanAgents.py,python,4,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/distutils/sysconfig.py,python,16,4,2,0,4,0,0,0,none
+10711680,tot_projects/0/10711680-f48da0cde3fc9e6c19e9b7939dc9d90b5416fa17/morgancormier-corobot-f48da0c/corobot_phidget_ik/src/corobot_phidgetIK/msg/_RangeSensor.py,python,6,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/pretty.py,python,38,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pydoc_data/topics.py,python,0,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pyparsing/core.py,python,254,1,0,0,1,0,0,1,none
+99843425,tot_projects/0/99843425-d97cbfa3b89485a3bbe968b7d712c4d849c43c26/lozuwa-automatic_digital_microscope_open_source_version-d97cbfa/MicroscopeProt5/MQTTServer.py,python,9,2,0,0,2,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/command/easy_install.py,python,107,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/paint.py,python,3,2,0,0,2,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/distlib/resources.py,python,33,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab01/tutorial/util.py,python,49,2,0,0,2,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/setuptools/launch.py,python,1,1,0,1,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/turtledemo/__main__.py,python,20,0,0,0,0,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW3/distanceCalculator.py,python,13,2,0,0,2,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dateutil/zoneinfo/__init__.py,python,7,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/web/pgadmin/tools/schema_diff/directory_compare.py,python,17,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/orm/mapper.py,python,108,1,0,0,1,0,0,0,none
+105887056,tot_projects/0/105887056-8518f4b10022ea2e9c15710bb693c68d298c67b7/mike84265-AIML-8518f4b/HW2/multiAgents.py,python,8,1,1,0,0,0,0,0,none
+190599005,tot_projects/0/190599005-bf28484686af5d191c4295503f89b1890f211d3a/OspreyInterns-ReportGeneration-bf28484/mississippi_sales_data.py,python,3,1,0,0,1,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pkg_resources/_vendor/pyparsing.py,python,290,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/filelist.py,python,18,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/_distutils/util.py,python,17,4,0,0,4,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/distlib/compat.py,python,76,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/argparse.py,python,124,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/webbrowser.py,python,27,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/setuptools/sandbox.py,python,40,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/outwin.py,python,14,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/base64.py,python,25,5,0,0,5,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/tkinter/tix.py,python,263,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/debugger.py,python,40,0,0,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/typing_extensions.py,python,124,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/setuptools/command/build_ext.py,python,18,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/__init__.py,python,0,0,0,0,0,0,0,0,none
+455259988,tot_projects/0/455259988-0a8dd8033445129876aa932c0de04b98185afb5e/andrebsilva-python-learn-0a8dd80/Part_03/002-Lambda/01_no_parameter.py,python,1,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/termui.py,python,17,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/sqlalchemy/engine/util.py,python,2,0,0,0,0,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/util.py,python,49,2,0,0,2,0,0,0,none
+33257894,tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/__init__.py,python,1,0,0,0,0,0,0,0,none
+428375470,tot_projects/0/428375470-dd22e9d39ef5e2c6c8e8fb50ec61909f52c3f30e/StringSuzana-chat_server-dd22e9d/venv/Lib/site-packages/pip/_vendor/requests/status_codes.py,python,1,1,0,0,1,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pip/_vendor/distro.py,python,52,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pyclbr.py,python,14,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/passlib/handlers/ldap_digests.py,python,8,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/ruby.py,python,4,0,0,0,0,0,0,0,none
+68907634,tot_projects/0/68907634-eea28f64ad459e7a2be5606ed47617bdf78815fa/collective-plonefr-eea28f6/src/plonefr.theme/src/plonefr/theme/tests/test_doctests.py,python,1,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/trace.py,python,26,1,1,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/docutils/parsers/rst/states.py,python,140,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/blinker/base.py,python,20,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/webmisc.py,python,29,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/cffi/vengine_gen.py,python,41,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/dns/resolver.py,python,66,3,0,0,3,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/multiprocessing/spawn.py,python,13,1,0,0,1,0,0,0,none
+500871419,tot_projects/0/500871419-581dee668b263e5bb74db99202acabf30ecebb85/tedomi2705-kernel_xiaomi_sdm660-581dee6/tools/perf/tests/attr.py,python,19,1,0,0,1,0,0,0,none
+763189234,tot_projects/0/763189234-3366aaa0ff94a444d6cfa84651dfa244d6ec25e1/TahlilMahfuz-CSE-4618_Artificial-Intelligence-Lab-3366aaa/Lab02/usearch/searchAgents.py,python,32,1,1,0,0,0,0,0,none
+770928505,tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/distro/distro.py,python,56,0,0,0,0,0,0,0,none
+322764981,tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/click/decorators.py,python,13,0,0,0,0,0,0,0,none
