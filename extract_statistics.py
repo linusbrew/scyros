@@ -15,6 +15,13 @@ foo = extr.kw_in_project(df_projects, "keywords/globals.json")
 
 print(extr.kw_ratio_project(df_projects, "loc", "loc_with_kw"))
 
+to_filter = pl.read_csv("result/filtered_languages.csv")
+
+to_filter = to_filter.sample(n=100)
+print(to_filter)
+
+to_filter.write_csv("result/foo.csv")
+
 ###### MEAN OF FILES ######
 # mean_of_files = df_files.mean()
 
