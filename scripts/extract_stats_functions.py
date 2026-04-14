@@ -2,7 +2,7 @@ import polars as pl
 import numpy as np
 import seaborn as sns
 import matplotlib as plt
-from StatisticsExtractor import StatisticsExtractor
+from scripts.StatisticsExtractor import StatisticsExtractor
 
 PATH_GLOBALS = "keywords/globals.json"
 

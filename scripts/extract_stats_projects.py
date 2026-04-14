@@ -2,11 +2,15 @@ import polars as pl
 import numpy as np
 import seaborn as sns
 import matplotlib as plt
-from StatisticsExtractor import StatisticsExtractor
+import os
+from scripts.StatisticsExtractor import StatisticsExtractor
 
 PATH_KEYWORDS = "keywords/"
 
 df_projects = pl.read_csv("result/tot_projects.csv")
+
+file_name = "stats/stats_projects.txt"
+os.makedirs(os.path.dirname(file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()
 
@@ -15,7 +19,9 @@ extractor = StatisticsExtractor()
 
 #TODO: min() is probably not very useful since it will always be 0
 
-with open("stats_projects2.txt", "w") as f:
+
+
+with open(file_name, "w") as f:
     files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_kw", "files")
     loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_with_kw", "loc")
     words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_with_kw", "words")
@@ -29,6 +35,7 @@ with open("stats_projects2.txt", "w") as f:
 
     for kw in file_names:
         path = PATH_KEYWORDS + kw
+        f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
         files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_" + path, "files")
         loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_of_files_with_" + path, "loc")
         words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_of_files_with_" + path, "words")

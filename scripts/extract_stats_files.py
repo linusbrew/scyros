@@ -2,20 +2,25 @@ import polars as pl
 import numpy as np
 import seaborn as sns
 import matplotlib as plt
-from StatisticsExtractor import StatisticsExtractor
+import os
+from scripts.StatisticsExtractor import StatisticsExtractor
 
 PATH_KEYWORDS = "keywords/"
 
 df_files = pl.read_csv("result/tot_dedup_files.csv")
+
+file_name = "stats/stats_files.txt"
+os.makedirs(os.path.dirname(file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()
 
 #TODO: min() is probably not very useful since it will always be 0
 
 file_names = extractor.file_to_kw.keys()
-with open("stats_files2.txt", "w") as f:
+with open(file_name, "w") as f:
     for kw in file_names:
         path = PATH_KEYWORDS + kw
+        f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
         avg_loc = extractor.avg_length(df_files, "loc", path)
         avg_words = extractor.avg_length(df_files, "words", path)
         f.write(f"On average when {extractor.file_to_kw.get(kw)} appears the file has: {avg_loc} LOC\n")
