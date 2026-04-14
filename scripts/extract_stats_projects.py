@@ -65,6 +65,8 @@ with open(file_name, "w") as f:
         f.write(f"The standard deviation of keywords for {extractor.file_to_kw.get(kw)} is : {sigma_kw_project}\n")
 
         quantiles_kw_project = extractor.calculate_quant(df_projects, path)
-        f.write(f"The quantiles of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project}\n")
+        f.write(f"The first quartile of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[0]}\n")
+        f.write(f"The third quartile of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[2]}\n")
+        f.write(f"The interquartile range of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[2] - quantiles_kw_project[0]}\n")
         f.write("\n")
         f.write("\n")
