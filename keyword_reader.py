@@ -1,8 +1,9 @@
-from StatisticsExtractor import StatisticsExtractor
+from scripts.StatisticsExtractor import StatisticsExtractor
 import os
 import json 
 paths = "/home/linus-brewitz/Code/thesis/scyros/keywords"
 
+# TODO: I might have to remove this file since it is no longer being used
 #NOTE: this is assuming there is only ONE keyword per file
 file_to_kw = dict()
 def read_json():
