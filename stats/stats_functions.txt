@@ -1,0 +1,90 @@
+----------globals()----------
+On average globals() appears in a function with : 20.05 LOC
+On average globals() appears in a function with : 66.24 words
+The median value when globals() appears in a function is : 11.0 LOC
+The median value when globals() appears in a function is : 41.0 words
+The total number of occurrences in all functions for globals(): 309
+The maximum number of occurrences for globals() is: 10
+The minimum number of occurrences for globals() is: 0
+The mean of keywords is for globals(): 0.43
+The median of keywords is for globals(): 0.0
+The variance of keywords for globals() is : 0.93
+The standard deviation of keywords for globals() is : 0.96
+The quantiles of keywords for globals() is : (0.0, 0.0, 1.0)
+
+
+----------locals()----------
+On average locals() appears in a function with : None LOC
+On average locals() appears in a function with : None words
+The median value when locals() appears in a function is : None LOC
+The median value when locals() appears in a function is : None words
+The total number of occurrences in all functions for locals(): 0
+The maximum number of occurrences for locals() is: 0
+The minimum number of occurrences for locals() is: 0
+The mean of keywords is for locals(): 0.0
+The median of keywords is for locals(): 0.0
+The variance of keywords for locals() is : 0.0
+The standard deviation of keywords for locals() is : 0.0
+The quantiles of keywords for locals() is : (0.0, 0.0, 0.0)
+
+
+----------global----------
+On average global appears in a function with : 33.06 LOC
+On average global appears in a function with : 113.77 words
+The median value when global appears in a function is : 14.0 LOC
+The median value when global appears in a function is : 48.0 words
+The total number of occurrences in all functions for global: 645
+The maximum number of occurrences for global is: 27
+The minimum number of occurrences for global is: 0
+The mean of keywords is for global: 0.9
+The median of keywords is for global: 1.0
+The variance of keywords for global is : 1.67
+The standard deviation of keywords for global is : 1.29
+The quantiles of keywords for global is : (0.0, 1.0, 1.0)
+
+
+----------__builtins__----------
+On average __builtins__ appears in a function with : 28.83 LOC
+On average __builtins__ appears in a function with : 95.67 words
+The median value when __builtins__ appears in a function is : 22.5 LOC
+The median value when __builtins__ appears in a function is : 59.0 words
+The total number of occurrences in all functions for __builtins__: 7
+The maximum number of occurrences for __builtins__ is: 2
+The minimum number of occurrences for __builtins__ is: 0
+The mean of keywords is for __builtins__: 0.01
+The median of keywords is for __builtins__: 0.0
+The variance of keywords for __builtins__ is : 0.01
+The standard deviation of keywords for __builtins__ is : 0.11
+The quantiles of keywords for __builtins__ is : (0.0, 0.0, 0.0)
+
+
+----------inspect.currentframe()----------
+On average inspect.currentframe() appears in a function with : None LOC
+On average inspect.currentframe() appears in a function with : None words
+The median value when inspect.currentframe() appears in a function is : None LOC
+The median value when inspect.currentframe() appears in a function is : None words
+The total number of occurrences in all functions for inspect.currentframe(): 0
+The maximum number of occurrences for inspect.currentframe() is: 0
+The minimum number of occurrences for inspect.currentframe() is: 0
+The mean of keywords is for inspect.currentframe(): 0.0
+The median of keywords is for inspect.currentframe(): 0.0
+The variance of keywords for inspect.currentframe() is : 0.0
+The standard deviation of keywords for inspect.currentframe() is : 0.0
+The quantiles of keywords for inspect.currentframe() is : (0.0, 0.0, 0.0)
+
+
+----------nonlocal----------
+On average nonlocal appears in a function with : 74.25 LOC
+On average nonlocal appears in a function with : 229.88 words
+The median value when nonlocal appears in a function is : 64.5 LOC
+The median value when nonlocal appears in a function is : 239.5 words
+The total number of occurrences in all functions for nonlocal: 26
+The maximum number of occurrences for nonlocal is: 6
+The minimum number of occurrences for nonlocal is: 0
+The mean of keywords is for nonlocal: 0.04
+The median of keywords is for nonlocal: 0.0
+The variance of keywords for nonlocal is : 0.1
+The standard deviation of keywords for nonlocal is : 0.32
+The quantiles of keywords for nonlocal is : (0.0, 0.0, 0.0)
+
+

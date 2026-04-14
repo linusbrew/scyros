@@ -1,0 +1,89 @@
+The percentage of files having at least one keyword: 11.72%
+The percentage of LOC having at least one keyword: 29.18%
+The percentage of words having at least one keyword: 30.11%
+
+
+----------globals()----------
+The percentage of files having globals(): 3.28%
+The percentage of LOC having globals(): 8.92%
+The percentage of words having globals(): 9.46%
+The total number of occurrences in all projects for globals(): 609
+The maximum number of occurrences for globals() is: 438
+The minimum number of occurrences for globals() is: 0
+The mean of keywords is for globals(): 6.09
+The median of keywords is for globals(): 0.0
+The variance of keywords for globals() is : 1963.07
+The standard deviation of keywords for globals() is : 44.31
+The quantiles of keywords for globals() is : (0.0, 0.0, 0.0)
+
+
+----------locals()----------
+The percentage of files having locals(): 0.0%
+The percentage of LOC having locals(): 0.0%
+The percentage of words having locals(): 0.0%
+The total number of occurrences in all projects for locals(): 0
+The maximum number of occurrences for locals() is: 0
+The minimum number of occurrences for locals() is: 0
+The mean of keywords is for locals(): 0.0
+The median of keywords is for locals(): 0.0
+The variance of keywords for locals() is : 0.0
+The standard deviation of keywords for locals() is : 0.0
+The quantiles of keywords for locals() is : (0.0, 0.0, 0.0)
+
+
+----------global----------
+The percentage of files having global: 9.36%
+The percentage of LOC having global: 25.18%
+The percentage of words having global: 26.06%
+The total number of occurrences in all projects for global: 1894
+The maximum number of occurrences for global is: 950
+The minimum number of occurrences for global is: 0
+The mean of keywords is for global: 18.94
+The median of keywords is for global: 0.0
+The variance of keywords for global is : 10046.4
+The standard deviation of keywords for global is : 100.23
+The quantiles of keywords for global is : (0.0, 0.0, 2.0)
+
+
+----------__builtins__----------
+The percentage of files having __builtins__: 0.24%
+The percentage of LOC having __builtins__: 1.36%
+The percentage of words having __builtins__: 1.57%
+The total number of occurrences in all projects for __builtins__: 35
+The maximum number of occurrences for __builtins__ is: 33
+The minimum number of occurrences for __builtins__ is: 0
+The mean of keywords is for __builtins__: 0.35
+The median of keywords is for __builtins__: 0.0
+The variance of keywords for __builtins__ is : 10.9
+The standard deviation of keywords for __builtins__ is : 3.3
+The quantiles of keywords for __builtins__ is : (0.0, 0.0, 0.0)
+
+
+----------inspect.currentframe()----------
+The percentage of files having inspect.currentframe(): 0.0%
+The percentage of LOC having inspect.currentframe(): 0.0%
+The percentage of words having inspect.currentframe(): 0.0%
+The total number of occurrences in all projects for inspect.currentframe(): 0
+The maximum number of occurrences for inspect.currentframe() is: 0
+The minimum number of occurrences for inspect.currentframe() is: 0
+The mean of keywords is for inspect.currentframe(): 0.0
+The median of keywords is for inspect.currentframe(): 0.0
+The variance of keywords for inspect.currentframe() is : 0.0
+The standard deviation of keywords for inspect.currentframe() is : 0.0
+The quantiles of keywords for inspect.currentframe() is : (0.0, 0.0, 0.0)
+
+
+----------nonlocal----------
+The percentage of files having nonlocal: 0.45%
+The percentage of LOC having nonlocal: 4.79%
+The percentage of words having nonlocal: 5.09%
+The total number of occurrences in all projects for nonlocal: 68
+The maximum number of occurrences for nonlocal is: 51
+The minimum number of occurrences for nonlocal is: 0
+The mean of keywords is for nonlocal: 0.68
+The median of keywords is for nonlocal: 0.0
+The variance of keywords for nonlocal is : 27.01
+The standard deviation of keywords for nonlocal is : 5.2
+The quantiles of keywords for nonlocal is : (0.0, 0.0, 0.0)
+
+
