@@ -52,19 +52,19 @@ with open(file_name, "w") as f:
         min_kw_project = extractor.min_keyword_project(df_projects, path)
         f.write(f"The minimum number of occurrences for {extractor.file_to_kw.get(kw)} is: {min_kw_project}\n")
 
-        mean_kw_project = extractor.calculate_mean_attr(df_projects, path)
+        mean_kw_project = extractor.calculate_mean(df_projects, path)
         f.write(f"The mean of keywords is for {extractor.file_to_kw.get(kw)}: {mean_kw_project}\n")
 
-        median_kw_project = extractor.calculate_median_attr(df_projects, path)
+        median_kw_project = extractor.calculate_median(df_projects, path)
         f.write(f"The median of keywords is for {extractor.file_to_kw.get(kw)}: {median_kw_project}\n")
 
-        var_kw_project = extractor.calculate_variance_attr(df_projects, path)
+        var_kw_project = extractor.calculate_variance(df_projects, path)
         f.write(f"The variance of keywords for {extractor.file_to_kw.get(kw)} is : {var_kw_project}\n")
 
-        sigma_kw_project = extractor.calculate_sigma_attr(df_projects, path)
+        sigma_kw_project = extractor.calculate_sigma(df_projects, path)
         f.write(f"The standard deviation of keywords for {extractor.file_to_kw.get(kw)} is : {sigma_kw_project}\n")
 
-        quantiles_kw_project = extractor.calculate_quant_attr(df_projects, path)
+        quantiles_kw_project = extractor.calculate_quant(df_projects, path)
         f.write(f"The quantiles of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project}\n")
         f.write("\n")
         f.write("\n")

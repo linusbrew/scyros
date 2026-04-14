@@ -22,9 +22,12 @@ class StatisticsExtractor:
     #TODO: larger files will probably be more likely to contain keywords,
     # so might need to use weighted somehow
     def avg_length(self, df: pl.DataFrame, length: str, keyword: str) -> float:
-        foo = df.remove(pl.col(keyword) == 0)
-        bar = foo.select(pl.col(length).mean().round(2)).item()
-        return bar
+        non_zero = df.remove(pl.col(keyword) == 0)
+        return non_zero.select(pl.col(length).mean().round(2)).item()
+    
+    def median_length(self, df: pl.DataFrame, length: str, keyword: str) -> int:
+        non_zero = df.remove(pl.col(keyword) == 0)
+        return non_zero.select(pl.col(length).median().round(2)).item()
 
     # NOTE: just in case I need to clean the data because of the errors
     def clean_projects(self, df: pl.DataFrame) -> pl.DataFrame:
@@ -49,44 +52,24 @@ class StatisticsExtractor:
     
     def min_keyword_project(self, df: pl.DataFrame, column: str) -> int:
         return df.select(pl.col(column).min()).item()
-        
-    #TODO: fix so I do not have so many separate methods when they essentially
-    # do the same thing. globals() might be useful
-    def calculate_mean_all(self, df: pl.DataFrame) -> pl.DataFrame:
-        return df.mean()
 
-    def calculate_mean_attr(self, df: pl.DataFrame, column: str) -> int:
+    def calculate_mean(self, df: pl.DataFrame, column: str) -> int:
         df_mean = df.mean()
-        return df_mean.select(pl.col(column)).item()
+        return df_mean.select(pl.col(column).round(2)).item()
     
-    def calculate_median_all(self, df: pl.DataFrame) -> pl.DataFrame:
-        return df.median()
-    
-    def calculate_median_attr(self, df: pl.DataFrame, column:str) -> int:
+    def calculate_median(self, df: pl.DataFrame, column:str) -> int:
         df_median = df.median()
         return df_median.select(pl.col(column)).item()
 
-    def calculate_variance_all(self, df: pl.DataFrame) -> pl.DataFrame:
-        return df.var()
-
-    def calculate_variance_attr(self, df: pl.DataFrame, column:str) -> int:
+    def calculate_variance(self, df: pl.DataFrame, column:str) -> int:
         df_var = df.var()
         return round(df_var.select(pl.col(column)).item(), 2)
 
-    def calculate_sigma_all(self, df: pl.DataFrame) -> pl.DataFrame:
-        return df.std()
-
-    def calculate_sigma_attr(self, df: pl.DataFrame, column:str) -> int:
+    def calculate_sigma(self, df: pl.DataFrame, column:str) -> int:
         df_sigma = df.std()
         return round(df_sigma.select(pl.col(column)).item(), 2)
-    
-    def calculate_quant_all(self, df: pl.DataFrame) -> tuple[pl.DataFrame, pl.DataFrame, pl.DataFrame]:
-        result = list()
-        for quantile in self.quantiles:
-            result.append(df.quantile(quantile=quantile))
-        return tuple(result)
 
-    def calculate_quant_attr(self, df: pl.DataFrame, column:str) -> tuple[int, int, int]:
+    def calculate_quant(self, df: pl.DataFrame, column:str) -> tuple[int, int, int]:
         result = list()
         foo = df.select(pl.col(column))
         for quantile in self.quantiles:
