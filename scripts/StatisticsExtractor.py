@@ -17,6 +17,17 @@ class StatisticsExtractor:
                     new_string = data["keywords"][0].replace("\\", "")
                     self.file_to_kw[e.name] = new_string
 
+    #TODO: this method is supposed to sum over all occurrences of a keyword
+    # in a dataframe (files/functions_logs). this is supposed to be used when
+    # deciding wether the import are used in module vs function. the thinking is that
+    # we know how many times the keyword shows up in a file from the file.csv file, 
+    # we also know how many times it shows up in functions. to get how many times they
+    # show up in module based we need to subtract the total of file with the total in function
+    # i.e., kw_in_module = kw_in_files - kw_in_functions 
+    # NOTE: this is the same as kw_in_project(), need to fix that by removing one of them
+    def find_kw_in_df(self, df: pl.DataFrame, kw: str) -> int:
+        df.select(pl.col(kw).sum()).item()
+
     def functions_with_kw(self, df_files: pl.DataFrame) -> int:
         return df_files.select(((pl.col("functions_with_kw").sum() / 
                         pl.col("functions").sum()) * 100).round(2)).item()
