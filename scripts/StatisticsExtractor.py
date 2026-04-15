@@ -17,6 +17,16 @@ class StatisticsExtractor:
                     new_string = data["keywords"][0].replace("\\", "")
                     self.file_to_kw[e.name] = new_string
 
+    def functions_with_kw(self, df_files: pl.DataFrame) -> int:
+        return df_files.select(((pl.col("functions_with_kw").sum() / 
+                        pl.col("functions").sum()) * 100).round(2)).item()
+    
+    # Function that calculates the share of a certain keyword
+    # compared to all functions 
+    def calculate_share_functions_with_keyword(self, df: pl.DataFrame, kw: str,
+                                                column: str) -> float:
+        return df.select(((pl.col(kw).sum() / pl.col(column).sum()) * 100).round(2)).item()
+        
     # Column can be either LOC or words, check how on avg how large a file is if
     # it contains a keyword
     #TODO: larger files will probably be more likely to contain keywords,

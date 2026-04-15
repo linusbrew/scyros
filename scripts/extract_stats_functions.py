@@ -16,12 +16,23 @@ os.makedirs(os.path.dirname(file_name), exist_ok=True)
 extractor = StatisticsExtractor()
 
 #TODO: min() is probably not very useful since it will always be 0
-
-file_names = extractor.file_to_kw.keys()
 with open(file_name, "w") as f:
+    functions_w_kw = extractor.functions_with_kw(df_logs)
+    f.write(f"{functions_w_kw}% of all functions have at least one keyword")
+    f.write("\n\n")
+
+    file_names = extractor.file_to_kw.keys()
     for kw in file_names:
         path = PATH_KEYWORDS + kw
         f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
+        share_all_func = extractor.calculate_share_functions_with_keyword(df_logs
+                                                                          , path, "functions")
+        share_kw_func = extractor.calculate_share_functions_with_keyword(df_logs
+                                                                          , path, "functions_with_kw")
+        
+        f.write(f"{extractor.file_to_kw.get(kw)} appears in {share_all_func}% of all functions\n")
+        f.write(f"{extractor.file_to_kw.get(kw)} appears in {share_kw_func}% of functions with keywords\n")
+
         avg_loc = extractor.avg_length(df_functions, "loc", path)
         avg_words = extractor.avg_length(df_functions, "words", path)
         f.write(f"On average {extractor.file_to_kw.get(kw)} appears in a function with : {avg_loc} LOC\n")
