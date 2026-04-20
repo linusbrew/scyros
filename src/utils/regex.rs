@@ -77,7 +77,8 @@ impl Matcher {
             .join("|");
         if !joined_keywords.is_empty() {
             let new_pattern: String = if whole_words {
-                format!(r"\b(?:{joined_keywords})\b")
+                // NOTE: this should maybe be: format!(r"(?:{joined_keywords})\b") or format!(r"\b(?:{joined_keywords})")
+                format!(r"(?:{joined_keywords})")
             } else {
                 joined_keywords
             };
