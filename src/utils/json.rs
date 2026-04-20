@@ -15,6 +15,7 @@
 use anyhow::{ensure, Context, Error, Result};
 use json::JsonValue;
 use std::collections::{HashMap, HashSet};
+
 use crate::utils::change_character::change_char;
 
 /// Opens a JSON file from a path.
@@ -39,9 +40,7 @@ pub fn open_json_from_path(path: &str) -> Result<JsonValue> {
 pub fn json_to_set(json: &JsonValue) -> HashSet<String> {
     let mut set = HashSet::<String>::new();
     json.members().for_each(|x| {
-        // set.insert(x.as_str().unwrap().to_owned());
-        // set.insert(change_char(x.as_str(), '\\', '§')).unwrap().to_owned();
-        set.insert(change_char(x.as_str().unwrap().to_owned(), '\\', '§'));
+        set.insert(change_char(x.as_str().unwrap().to_owned(), '§', '\\'));
     });
     set
 }

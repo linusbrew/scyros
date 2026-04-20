@@ -20,4 +20,3 @@ pub fn change_char(input_string: String, change_from: char, change_to: char) -> 
     }
     updated_string
 }
-
