@@ -7,9 +7,9 @@ from scripts.StatisticsExtractor import StatisticsExtractor
 
 PATH_KEYWORDS = "keywords/"
 
-df_projects = pl.read_csv("result/tot_projects.csv")
+df_projects = pl.read_csv("result/imp_projects.csv")
 
-file_name = "stats/stats_projects.txt"
+file_name = "stats/imp_stats_projects.txt"
 os.makedirs(os.path.dirname(file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()
@@ -35,38 +35,39 @@ with open(file_name, "w") as f:
 
     for kw in file_names:
         path = PATH_KEYWORDS + kw
-        f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
-        files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_" + path, "files")
-        loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_of_files_with_" + path, "loc")
-        words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_of_files_with_" + path, "words")
-        f.write(f"The percentage of files having {extractor.file_to_kw.get(kw)}: {files_kw_percentage}%\n")
-        f.write(f"The percentage of LOC having {extractor.file_to_kw.get(kw)}: {loc_kw_percentage}%\n")
-        f.write(f"The percentage of words having {extractor.file_to_kw.get(kw)}: {words_kw_percentage}%\n")
+        if path is "keywords/import.json" or "keywords/from_import.json":
+            f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
+            files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_" + path, "files")
+            loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_of_files_with_" + path, "loc")
+            words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_of_files_with_" + path, "words")
+            f.write(f"The percentage of files having {extractor.file_to_kw.get(kw)}: {files_kw_percentage}%\n")
+            f.write(f"The percentage of LOC having {extractor.file_to_kw.get(kw)}: {loc_kw_percentage}%\n")
+            f.write(f"The percentage of words having {extractor.file_to_kw.get(kw)}: {words_kw_percentage}%\n")
 
-        kw_in_project = extractor.kw_in_project(df_projects, path)
-        f.write(f"The total number of occurrences in all projects for {extractor.file_to_kw.get(kw)}: {kw_in_project}\n")
+            kw_in_project = extractor.kw_in_project(df_projects, path)
+            f.write(f"The total number of occurrences in all projects for {extractor.file_to_kw.get(kw)}: {kw_in_project}\n")
 
-        max_kw_project = extractor.max_keyword_project(df_projects, path)
-        f.write(f"The maximum number of occurrences for {extractor.file_to_kw.get(kw)} is: {max_kw_project}\n")
+            max_kw_project = extractor.max_keyword_project(df_projects, path)
+            f.write(f"The maximum number of occurrences for {extractor.file_to_kw.get(kw)} is: {max_kw_project}\n")
 
-        min_kw_project = extractor.min_keyword_project(df_projects, path)
-        f.write(f"The minimum number of occurrences for {extractor.file_to_kw.get(kw)} is: {min_kw_project}\n")
+            min_kw_project = extractor.min_keyword_project(df_projects, path)
+            f.write(f"The minimum number of occurrences for {extractor.file_to_kw.get(kw)} is: {min_kw_project}\n")
 
-        mean_kw_project = extractor.calculate_mean(df_projects, path)
-        f.write(f"The mean of keywords is for {extractor.file_to_kw.get(kw)}: {mean_kw_project}\n")
+            mean_kw_project = extractor.calculate_mean(df_projects, path)
+            f.write(f"The mean of keywords is for {extractor.file_to_kw.get(kw)}: {mean_kw_project}\n")
 
-        median_kw_project = extractor.calculate_median(df_projects, path)
-        f.write(f"The median of keywords is for {extractor.file_to_kw.get(kw)}: {median_kw_project}\n")
+            median_kw_project = extractor.calculate_median(df_projects, path)
+            f.write(f"The median of keywords is for {extractor.file_to_kw.get(kw)}: {median_kw_project}\n")
 
-        var_kw_project = extractor.calculate_variance(df_projects, path)
-        f.write(f"The variance of keywords for {extractor.file_to_kw.get(kw)} is : {var_kw_project}\n")
+            var_kw_project = extractor.calculate_variance(df_projects, path)
+            f.write(f"The variance of keywords for {extractor.file_to_kw.get(kw)} is : {var_kw_project}\n")
 
-        sigma_kw_project = extractor.calculate_sigma(df_projects, path)
-        f.write(f"The standard deviation of keywords for {extractor.file_to_kw.get(kw)} is : {sigma_kw_project}\n")
+            sigma_kw_project = extractor.calculate_sigma(df_projects, path)
+            f.write(f"The standard deviation of keywords for {extractor.file_to_kw.get(kw)} is : {sigma_kw_project}\n")
 
-        quantiles_kw_project = extractor.calculate_quant(df_projects, path)
-        f.write(f"The first quartile of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[0]}\n")
-        f.write(f"The third quartile of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[2]}\n")
-        f.write(f"The interquartile range of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[2] - quantiles_kw_project[0]}\n")
-        f.write("\n")
-        f.write("\n")
+            quantiles_kw_project = extractor.calculate_quant(df_projects, path)
+            f.write(f"The first quartile of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[0]}\n")
+            f.write(f"The third quartile of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[2]}\n")
+            f.write(f"The interquartile range of keywords for {extractor.file_to_kw.get(kw)} is : {quantiles_kw_project[2] - quantiles_kw_project[0]}\n")
+            f.write("\n")
+            f.write("\n")
