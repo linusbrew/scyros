@@ -5,8 +5,8 @@ import os
 
 PATH_KEYWORDS = "keywords/"
 
-df_files = pl.read_csv("result/tot_files.csv")
-df_logs = pl.read_csv("result/tot_function_logs.csv")
+df_files = pl.read_csv("result/imp_files.csv")
+df_logs = pl.read_csv("result/imp_tot_function_logs.csv")
 
 file_name = "stats/stats_imports.txt"
 os.makedirs(os.path.dirname(file_name), exist_ok=True) 
