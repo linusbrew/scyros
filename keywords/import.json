@@ -9,6 +9,6 @@
         }
     ],
     "keywords": [
-        "import \\*"
+        "(?m)(?:^|;)[ §t]*import[ ]+([^§r§n§t§f§v ;])*§b"
     ]
 }

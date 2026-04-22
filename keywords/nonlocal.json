@@ -9,6 +9,6 @@
         }
     ],
     "keywords": [
-        "nonlocal"
+        "(?m)(?:^|;)[ §t]*nonlocal[ ]+([^§r§n§t§f§v ;])*[ ]*(§S+)"
     ]
 }

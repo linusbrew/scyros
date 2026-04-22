@@ -9,6 +9,6 @@
         }
     ],
     "keywords": [
-        "global"
+        "(?m)(?:^|;)[ §t]*global[ ]+([^§r§n§t§f§v ;])*[ ]*(§S+)"
     ]
 }
