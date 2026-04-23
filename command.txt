@@ -1,0 +1,3 @@
+target/release/scyros download --input result/small_lang_sample.csv --projects result/imp_projects2.csv --files result/imp_files2.csv --tokens ghtokens.csv --dest imp_projects2 --keywords keywords/global.json  keywords/nonlocal.json keywords/import.json keywords/from_import.json --force
+
+rustc 1.94.0 (4a4ef493e 2026-03-02)
