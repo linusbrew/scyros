@@ -9,6 +9,6 @@
         }
     ],
     "keywords": [
-        "inspect.currentframe\\(\\)"
+        "(?:^|[;'\\(\\{,=\\s])[ \\t]*\\binspect\\.currentframe\\(\\)"
     ]
 }
