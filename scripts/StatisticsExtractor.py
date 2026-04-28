@@ -12,6 +12,7 @@ class StatisticsExtractor:
     file_to_kw = dict()
     PATH_KEYWORDS = "keywords/"
     PATH_FIGURES = "figures/"
+    THRESHOLD = 200 # Constant for how many keywords have without boring Fred. 
 
     # NOTE: this is assuming there is only ONE keyword per file
     def __init__(self):
@@ -32,35 +33,43 @@ class StatisticsExtractor:
                         new_string = new_string.replace("m", "", 1)
                     self.file_to_kw[e.name] = new_string
 
-    #TODO: this method is supposed to sum over all occurrences of a keyword
-    # in a dataframe (files/functions_logs). this is supposed to be used when
-    # deciding wether the import are used in module vs function. the thinking is that
-    # we know how many times the keyword shows up in a file from the file.csv file, 
-    # we also know how many times it shows up in functions. to get how many times they
-    # show up in module based we need to subtract the total of file with the total in function
-    # i.e., kw_in_module = kw_in_files - kw_in_functions 
-    # NOTE: this is the same as kw_in_project(), need to fix that by removing one of them
-    def find_kw_in_df(self, df: pl.DataFrame, kw: str) -> int:
-        df.select(pl.col(kw).sum()).item()
+    def below_threshold(self, df: pl.DataFrame, kw: str) -> bool:
+        return self.kw_in_project(df, kw) <= self.THRESHOLD
 
+    # I'm thinking this method should not return anything but simply
+    # write to a .csv file instead to save screen space.
+    # NOTE: If the amount occurrences of a keyword/function is greater
+    # than self.THRESHOLD then an empty .csv file will be created.
+    def get_project_list(self, df: pl.DataFrame, kw: str) -> None:
+        os.makedirs(os.path.dirname("result/filtered_builtins.csv"), exist_ok=True)
+        new_df = pl.DataFrame({"id": [], "path": [], "name": [], kw: []})
+        if self.below_threshold(df, kw):
+            filtered = df.filter((pl.col(kw) > 0))
+            new_df = filtered.select(pl.col("id"), pl.col("path"), pl.col("name"), pl.col(kw))
+        print(new_df)
+        new_df.write_csv("result/filtered_builtins.csv")
+
+    # TODO: add so we draw a line where the zero's stop to
+    # get a better indication of how the spread is 
     def plot_lorenz(self, arr, kw: str) -> None:
         gini_coeff = self.gini(arr)
         lorenz_curve = self.lorenz(arr)
-        # we need the X values to be between 0.0 to 1.0
         plt.cla()
         plt.clf()
+
+        # we need the X values to be between 0.0 to 1.0
         plt.plot(np.linspace(0.0, 1.0, lorenz_curve.size), lorenz_curve, label="Lorenz curve for " + kw)
         # plot the straight line perfect equality curve
         plt.plot([0,1], [0,1], label="Equality line")
 
         props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
         plt.text(-0.025, 0.83, "Gini = " + str(gini_coeff), bbox=props)
-        plt.xlabel("Xes man")
+        plt.xlabel("Xes man") # TODO: Fix the label
         plt.gca().yaxis.set_label_position("right")
         plt.gca().yaxis.tick_right()
-        plt.ylabel("Yes man")
+        plt.ylabel("Yes man") # TODO: Fix the label
         plt.legend()
-        plt.savefig("figures/" + kw + ".png")
+        plt.savefig(self.PATH_FIGURES + kw + ".png")
 
     def gini(self, g_arr) -> float:
         # This method was originally posted on GitHubGist by CMCDragonkai 
