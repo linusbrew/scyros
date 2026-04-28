@@ -1,33 +1,26 @@
 import polars as pl
 import numpy as np
 import seaborn as sns
-import matplotlib as plt
+import matplotlib.pyplot as plt
 import os
 from scripts.StatisticsExtractor import StatisticsExtractor
 
 PATH_KEYWORDS = "keywords/"
+PATH_FIGURES = "figures/"
 
 df_projects = pl.read_csv("result/imp_projects.csv")
 
-file_name = "stats/imp_stats_projects.txt"
-os.makedirs(os.path.dirname(file_name), exist_ok=True) 
+stats_file_name = "stats/imp_stats_projects.txt"
+os.makedirs(os.path.dirname(stats_file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()
 
 # TODO: What do do when keyword shows up in a string: for instance __builtins__ in: 
 #/home/linus-brewitz/Code/thesis/scyros/tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pydoc_data/topics.py
 
-#TODO: min() is probably not very useful since it will always be 0
-
-
-
-with open(file_name, "w") as f:
+with open(stats_file_name, "w") as f:
     files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_kw", "files")
-    loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_with_kw", "loc")
-    words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_with_kw", "words")
     f.write(f"The percentage of files having at least one keyword: {files_kw_percentage}%\n")
-    f.write(f"The percentage of LOC having at least one keyword: {loc_kw_percentage}%\n")
-    f.write(f"The percentage of words having at least one keyword: {words_kw_percentage}%\n")
     f.write("\n")
     f.write("\n")
 
@@ -35,7 +28,17 @@ with open(file_name, "w") as f:
 
     for kw in file_names:
         path = PATH_KEYWORDS + kw
+        figure_file_name = PATH_FIGURES + kw + ".jpg"
+
+        os.makedirs(os.path.dirname(figure_file_name), exist_ok=True)
+        arr = extractor.column_as_numpy(df_projects, PATH_KEYWORDS + kw)
+        extractor.plot_lorenz(arr, kw)
+        
+
         f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
+        gini_coeff = extractor.gini(arr)
+        f.write(f"The Gini coefficient for {extractor.file_to_kw.get(kw)} is {gini_coeff}\n")
+        
         files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_" + path, "files")
         loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_of_files_with_" + path, "loc")
         words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_of_files_with_" + path, "words")

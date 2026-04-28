@@ -7,7 +7,7 @@ from scripts.StatisticsExtractor import StatisticsExtractor
 
 PATH_KEYWORDS = "keywords/"
 
-df_files = pl.read_csv("result/imp_dedup_files.csv")
+df_files = pl.read_csv("result/imp_dedup_files4.csv")
 
 file_name = "stats/imp_stats_files.txt"
 os.makedirs(os.path.dirname(file_name), exist_ok=True) 
@@ -15,9 +15,13 @@ os.makedirs(os.path.dirname(file_name), exist_ok=True)
 extractor = StatisticsExtractor()
 
 #TODO: min() is probably not very useful since it will always be 0
-
-file_names = extractor.file_to_kw.keys()
 with open(file_name, "w") as f:
+    import_percent = extractor.percentage_imports(df_files, PATH_KEYWORDS + "import.json", PATH_KEYWORDS + "from_import.json")
+    f.write(f"The percentage of all imports being 'import foo' is {import_percent * 100}%\n")
+    f.write(f"The percentage of all imports being 'from bar import foo' is {(1 - import_percent) * 100}%\n")
+    f.write("\n")
+    f.write("\n")
+    file_names = extractor.file_to_kw.keys()
     for kw in file_names:
         path = PATH_KEYWORDS + kw
         f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
