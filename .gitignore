@@ -21,7 +21,5 @@ result/filtered_languages.csv
 fp_dataset/
 projects/
 env/
-tot_projects/
 stats/
-imp_projects/
-imp_projects2/
+figures/
