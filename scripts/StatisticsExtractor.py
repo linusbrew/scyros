@@ -6,13 +6,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 paths = "/home/linus-brewitz/Code/thesis/scyros/keywords"
+PREFIX = "py"
 
 class StatisticsExtractor:
     quantiles = [0.25, 0.50, 0.75]
     file_to_kw = dict()
     PATH_KEYWORDS = "keywords/"
     PATH_FIGURES = "figures/"
-    THRESHOLD = 200 # Constant for how many keywords have without boring Fred. 
+    THRESHOLD = 200 # Constant for how many keywords to look through without boring Fred. 
 
     # NOTE: this is assuming there is only ONE keyword per file
     def __init__(self):
@@ -41,13 +42,13 @@ class StatisticsExtractor:
     # NOTE: If the amount occurrences of a keyword/function is greater
     # than self.THRESHOLD then an empty .csv file will be created.
     def get_project_list(self, df: pl.DataFrame, kw: str) -> None:
-        os.makedirs(os.path.dirname("result/filtered_builtins.csv"), exist_ok=True)
+        os.makedirs(os.path.dirname("result/filtered_" + kw + ".csv"), exist_ok=True)
         new_df = pl.DataFrame({"id": [], "path": [], "name": [], kw: []})
         if self.below_threshold(df, kw):
             filtered = df.filter((pl.col(kw) > 0))
             new_df = filtered.select(pl.col("id"), pl.col("path"), pl.col("name"), pl.col(kw))
         print(new_df)
-        new_df.write_csv("result/filtered_builtins.csv")
+        new_df.write_csv("result/filtered_" + kw + ".csv")
 
     # TODO: add so we draw a line where the zero's stop to
     # get a better indication of how the spread is 

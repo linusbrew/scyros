@@ -3,24 +3,29 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
-from scripts.StatisticsExtractor import StatisticsExtractor
+from scripts.StatisticsExtractor import StatisticsExtractor, PREFIX
 
 PATH_KEYWORDS = "keywords/"
 PATH_FIGURES = "figures/"
 
-df_projects = pl.read_csv("result/imp_projects.csv")
 
-stats_file_name = "stats/imp_stats_projects.txt"
+stats_file_name = "stats/stats_projects.txt"
 os.makedirs(os.path.dirname(stats_file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()
 
-# TODO: What do do when keyword shows up in a string: for instance __builtins__ in: 
-#/home/linus-brewitz/Code/thesis/scyros/tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/pydoc_data/topics.py
+df_before = pl.read_csv("result/" + PREFIX + "_projects.csv")
+df_projects = extractor.clean_projects(df_before)
+df_projects.write_csv("result/" + PREFIX + "_projects_clean.csv")
 
 with open(stats_file_name, "w") as f:
     files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_kw", "files")
     f.write(f"The percentage of files having at least one keyword: {files_kw_percentage}%\n")
+    f.write(f"The number of projects before cleanup: {extractor.count_rows(df_before)}\n")
+    f.write(f"The number of projects after cleanup: {extractor.count_rows(df_projects)}\n")
+    f.write(f"The number of projects {extractor.num_after_cleanup(df_before, df_projects)} that were removed from the dataset\n")
+    f.write(f"The percentage: {100 - extractor.percentage_after_cleanup(df_before, df_projects)}% that was removed from the dataset\n")
+    f.write(f"The percentage: {extractor.percentage_after_cleanup(df_before, df_projects)}% that remain of the dataset\n")
     f.write("\n")
     f.write("\n")
 
@@ -34,11 +39,10 @@ with open(stats_file_name, "w") as f:
         arr = extractor.column_as_numpy(df_projects, PATH_KEYWORDS + kw)
         extractor.plot_lorenz(arr, kw)
         
-
         f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
         gini_coeff = extractor.gini(arr)
         f.write(f"The Gini coefficient for {extractor.file_to_kw.get(kw)} is {gini_coeff}\n")
-        
+
         files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_" + path, "files")
         loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_of_files_with_" + path, "loc")
         words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_of_files_with_" + path, "words")

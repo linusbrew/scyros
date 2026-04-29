@@ -3,14 +3,14 @@ import numpy as np
 import seaborn as sns
 import matplotlib as plt
 import os
-from scripts.StatisticsExtractor import StatisticsExtractor
+from scripts.StatisticsExtractor import StatisticsExtractor, PREFIX
 
 PATH_KEYWORDS = "keywords/"
 
-df_functions = pl.read_csv("result/imp_functions.csv")
-df_logs = pl.read_csv("result/imp_function_logs.csv")
+df_functions = pl.read_csv("result/" + PREFIX + "_functions.csv")
+df_logs = pl.read_csv("result/" + PREFIX + "_function_logs.csv")
 
-file_name = "stats/imp_stats_functions.txt"
+file_name = "stats/stats_functions.txt"
 os.makedirs(os.path.dirname(file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()

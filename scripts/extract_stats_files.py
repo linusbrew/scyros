@@ -3,13 +3,13 @@ import numpy as np
 import seaborn as sns
 import matplotlib as plt
 import os
-from scripts.StatisticsExtractor import StatisticsExtractor
+from scripts.StatisticsExtractor import StatisticsExtractor, PREFIX
 
 PATH_KEYWORDS = "keywords/"
 
-df_files = pl.read_csv("result/imp_dedup_files4.csv")
+df_files = pl.read_csv("result/" + PREFIX + "_dedup_files.csv")
 
-file_name = "stats/imp_stats_files.txt"
+file_name = "stats/stats_files.txt"
 os.makedirs(os.path.dirname(file_name), exist_ok=True) 
 
 extractor = StatisticsExtractor()
