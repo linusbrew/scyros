@@ -16,11 +16,6 @@ extractor = StatisticsExtractor()
 
 #TODO: min() is probably not very useful since it will always be 0
 with open(file_name, "w") as f:
-    import_percent = extractor.percentage_imports(df_files, PATH_KEYWORDS + "import.json", PATH_KEYWORDS + "from_import.json")
-    f.write(f"The percentage of all imports being 'import foo' is {import_percent * 100}%\n")
-    f.write(f"The percentage of all imports being 'from bar import foo' is {(1 - import_percent) * 100}%\n")
-    f.write("\n")
-    f.write("\n")
     file_names = extractor.file_to_kw.keys()
     for kw in file_names:
         path = PATH_KEYWORDS + kw

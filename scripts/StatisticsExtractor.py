@@ -15,7 +15,8 @@ class StatisticsExtractor:
     PATH_FIGURES = "figures/"
     THRESHOLD = 200 # Constant for how many keywords to look through without boring Fred. 
 
-    # NOTE: this is assuming there is only ONE keyword per file
+    # NOTE: this is assuming there is only ONE keyword per file, this is also extremely
+    # hardcoded.
     def __init__(self):
         for e in os.scandir(paths):
             if e.is_file():
@@ -65,10 +66,10 @@ class StatisticsExtractor:
 
         props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
         plt.text(-0.025, 0.83, "Gini = " + str(gini_coeff), bbox=props)
-        plt.xlabel("Xes man") # TODO: Fix the label
+        plt.xlabel("Cumulative Share of projects") 
         plt.gca().yaxis.set_label_position("right")
         plt.gca().yaxis.tick_right()
-        plt.ylabel("Yes man") # TODO: Fix the label
+        plt.ylabel("Cumulative Share of keywords/functions")
         plt.legend()
         plt.savefig(self.PATH_FIGURES + kw + ".png")
 
@@ -109,10 +110,10 @@ class StatisticsExtractor:
         return round((self.count_rows(df_after) / self.count_rows(df_before)) * 100, 2)
 
     def percentage_imports(self, df: pl.DataFrame, numerator: str, deno: str) -> float:
-        numerator_num = df.select(pl.col(numerator).sum().round(2)).item()
-        deno_num = df.select(pl.col(deno).sum().round(2)).item()
+        numerator_num = df.select(pl.col(numerator).sum().round(3)).item()
+        deno_num = df.select(pl.col(deno).sum().round(3)).item()
         percentage = numerator_num / (numerator_num + deno_num)
-        return round(percentage, 2)
+        return round(percentage, 3)
 
     def functions_with_kw(self, df_files: pl.DataFrame) -> int:
         return df_files.select(((pl.col("functions_with_kw").sum() / 
