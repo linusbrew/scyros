@@ -21,25 +21,12 @@ with open(file_name, "w") as f:
         kw_in_module = kw_in_files - kw_in_function
         f.write(f"The amount of {extractor.file_to_kw.get(kw)} at module level: {kw_in_module}\n")
         f.write(f"The amount of {extractor.file_to_kw.get(kw)} at function level: {kw_in_function}\n")
-        f.write("\n")
-        f.write("\n")
 
-#TODO: at home look at these files to see how nonlocal is used:
-# GOOD EXAMPLE: tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/site-packages/pygments/lexers/python.py,1
-""" 
-name,keywords/nonlocal.json
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/tasks.py,2
-tot_projects/0/33257894-88424361ede6d9215835cd839cc51b02e5771ff7/BrainTech-pisak-8842436/pisak/scanning.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/asyncio/staggered.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/types.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/sre_compile.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/zipfile.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/idle_test/htest.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/functools.py,2
-tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/rich/traceback.py,1
-tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/_vendor/pyparsing/core.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/idlelib/sidebar.py,1
-tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pkg_resources/_vendor/pyparsing/helpers.py,1
-tot_projects/0/322764981-73991d3b6174a29261cd6b86bc5f1c16a8b13021/star-eyes-student_edit-73991d3/成绩管理系统1/schema/pgsql/pgAdmin 4/venv/Lib/statistics.py,1
-tot_projects/0/770928505-9b13aa338b619080c86e23e0492a5a82deecfa1c/epfl-cs358-2024sp-exoskeleton-9b13aa3/pvenv/Lib/site-packages/pip/_vendor/pyparsing/core.py,1"""
+        kw_in_module_percentage = kw_in_module / kw_in_files
+        kw_function_percentage = kw_in_function / kw_in_files
+        f.write(f"The percentage of keywords at module level is {round(kw_in_module_percentage* 100, 2)}%\n")
+        f.write(f"The percentage of keywords at function level is {round(kw_function_percentage * 100, 2)}%\n")
+
+        f.write("\n")
+        f.write("\n")
 

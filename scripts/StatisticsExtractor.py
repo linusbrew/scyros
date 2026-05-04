@@ -40,38 +40,59 @@ class StatisticsExtractor:
 
     # I'm thinking this method should not return anything but simply
     # write to a .csv file instead to save screen space.
-    # NOTE: If the amount occurrences of a keyword/function is greater
-    # than self.THRESHOLD then an empty .csv file will be created.
     def get_project_list(self, df: pl.DataFrame, kw: str) -> None:
-        os.makedirs(os.path.dirname("result/filtered_" + kw + ".csv"), exist_ok=True)
-        new_df = pl.DataFrame({"id": [], "path": [], "name": [], kw: []})
         if self.below_threshold(df, kw):
+            os.makedirs(os.path.dirname("result/filtered_" + kw + ".csv"), exist_ok=True)
+            new_df = pl.DataFrame({"id": [], "path": [], "name": [], kw: []})
             filtered = df.filter((pl.col(kw) > 0))
             new_df = filtered.select(pl.col("id"), pl.col("path"), pl.col("name"), pl.col(kw))
-        print(new_df)
-        new_df.write_csv("result/filtered_" + kw + ".csv")
+            new_df.write_csv("result/filtered_" + kw + ".csv")
+            print(new_df)
 
-    # TODO: add so we draw a line where the zero's stop to
-    # get a better indication of how the spread is 
     def plot_lorenz(self, arr, kw: str) -> None:
         gini_coeff = self.gini(arr)
         lorenz_curve = self.lorenz(arr)
+        x_line = self.last_zero(arr)
+        
         plt.cla()
         plt.clf()
-
-        # we need the X values to be between 0.0 to 1.0
-        plt.plot(np.linspace(0.0, 1.0, lorenz_curve.size), lorenz_curve, label="Lorenz curve for " + kw)
+        
+        fig, ax = plt.subplots()
+        ax.set_xticks(np.arange(0, 1.1, 0.1))
+        ax.set_yticks(np.arange(0, 1.1, 0.1))
+        
+      # we need the X values to be between 0.0 to 1.0
+        ax.plot(
+            np.linspace(0.0, 1.0, lorenz_curve.size),
+            lorenz_curve,
+            label="Lorenz curve for " + kw,
+            zorder=2
+        )
+        
         # plot the straight line perfect equality curve
-        plt.plot([0,1], [0,1], label="Equality line")
-
+        ax.plot([0, 1], [0, 1], label="Equality line", zorder=2)
+        
+        ax.axvline(x_line, color='r', label='Last zero', zorder=2)
+        
         props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
-        plt.text(-0.025, 0.83, "Gini = " + str(gini_coeff), bbox=props)
-        plt.xlabel("Cumulative Share of projects") 
-        plt.gca().yaxis.set_label_position("right")
-        plt.gca().yaxis.tick_right()
-        plt.ylabel("Cumulative Share of keywords/functions")
-        plt.legend()
+        ax.text(
+            0.025, 0.77,
+            "Gini = " + str(gini_coeff),
+            bbox=props,
+            zorder=3,                  
+            transform=ax.transAxes,    
+            verticalalignment='top'
+        )
+        
+        ax.set_xlabel("Cumulative Share of projects")
+        ax.yaxis.set_label_position("right")
+        ax.yaxis.tick_right()
+        ax.set_ylabel("Cumulative Share of keywords/functions")
+        l = ax.legend(loc='upper left')
+        l.set_zorder(3)
+        
         plt.savefig(self.PATH_FIGURES + kw + ".png")
+        plt.close(fig) 
 
     def gini(self, g_arr) -> float:
         # This method was originally posted on GitHubGist by CMCDragonkai 
@@ -93,6 +114,21 @@ class StatisticsExtractor:
         scaled_prefix_sum = l_arr.cumsum() / l_arr.sum()
         # this prepends the 0 value (because 0% of all people have 0% of all wealth)
         return np.insert(scaled_prefix_sum, 0, 0)
+    # Calculates the last index where a 0 is. Then converts to decimal form to get share
+    # where the index is.
+    def last_zero(self, arr) -> float:
+        # print((np.where(arr==0)[0][-1] + 1) / len(arr))
+        return (np.where(arr==0)[0][-1] + 1) / len(arr)
+    
+    def count_parse_error(self, df: pl.DataFrame) -> int:
+        filtered = df.filter(pl.col("parse_error") != "none")
+        result = filtered.select(pl.col("parse_error").count()).item()
+        return result
+
+    def write_parse_error(self, df: pl.DataFrame, path: str) -> None:
+        os.makedirs(os.path.dirname(f"result/parse_error_{path}.csv"), exist_ok=True)
+        filtered = df.filter(pl.col("parse_error") != "none")
+        filtered.write_csv(f"result/parse_error_{path}.csv")
 
     def column_as_numpy(self, df: pl.DataFrame, column: str) -> np.array:
         sorted = df.sort(column)
