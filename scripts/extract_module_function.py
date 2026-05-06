@@ -19,6 +19,7 @@ with open(file_name, "w") as f:
         kw_in_function = extractor.kw_in_project(df_logs, path)
         kw_in_files = extractor.kw_in_project(df_files, path)
         kw_in_module = kw_in_files - kw_in_function
+        f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
         f.write(f"The amount of {extractor.file_to_kw.get(kw)} at module level: {kw_in_module}\n")
         f.write(f"The amount of {extractor.file_to_kw.get(kw)} at function level: {kw_in_function}\n")
 

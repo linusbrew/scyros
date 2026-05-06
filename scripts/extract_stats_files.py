@@ -20,10 +20,10 @@ with open(file_name, "w") as f:
     for kw in file_names:
         path = PATH_KEYWORDS + kw
         f.write(f"----------{extractor.file_to_kw.get(kw)}----------\n")
-        avg_loc = extractor.avg_length(df_files, "loc", path)
-        avg_words = extractor.avg_length(df_files, "words", path)
-        f.write(f"On average when {extractor.file_to_kw.get(kw)} appears the file has: {avg_loc} LOC\n")
-        f.write(f"On average when {extractor.file_to_kw.get(kw)} appears the file has: {avg_words} words\n")
+        # avg_loc = extractor.avg_length(df_files, "loc", path)
+        # avg_words = extractor.avg_length(df_files, "words", path)
+        # f.write(f"On average when {extractor.file_to_kw.get(kw)} appears the file has: {avg_loc} LOC\n")
+        # f.write(f"On average when {extractor.file_to_kw.get(kw)} appears the file has: {avg_words} words\n")
 
         kw_in_file = extractor.kw_in_project(df_files, path)
         f.write(f"The total number of occurrences in all files for {extractor.file_to_kw.get(kw)}: {kw_in_file}\n")
