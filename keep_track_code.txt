@@ -1,0 +1,103 @@
+builtins;
+1. builtins 1/1, import 2/2 
+2. builtins 1/1, import 2/2
+3. global 2/2, globals() 1/1, locals() 1/1, import 9/9, from import 8/8, builtins 1/1
+4. import 5/5, from import 3/3, builtins 0/1 ERROR: IN COMMENT
+5. import 6/6, from import 7/7, builtins 0/2 ERROR: IN STRING LITERAL
+6. import 5/5, from import 4/4, builtins 1/2 ERROR: IN STRING LITERAL
+7. import 14/14, from import 23/23, builtins 1/2 ERROR: IN STRING LITERAL
+8. import 12/12, from import 50/50, builtins 1/2 ERROR: IN STRING LITERAL
+9. import 7/7, from import 6/6, builtins 1/2 ERROR: IN STRING LITERAL 
+10. import 6/6, from import 9/9, builtins 1/1
+11. globals() 1/1, import 2/2, from import 2/2, builtins 2/2
+12. import 3/3, from import 5/5, builtins 3/3
+inspect;
+13. inspect 1/1, import 4/4
+14. nonlocal 2/2, inspect 1/1, import 5/5, from import 11/12 ERROR: IN STRING BLOCK
+15. inspect 1/1, import 6/6, from import 1/1
+16. inspect 1/1, import 6/6, from import 1/1
+17. inspect 2/2, import 4/4, from import 4/4
+18. inspect 1/1, import 3/3, from import 7/8 ERROR: IN STRING BLOCK
+19. locals() 1/1, inspect 1/1, import 3/3, from import 10/10
+20. inspect 1/1, import 6/6, from import 1/1
+21. inspect 1/1, import 22/22, from import 5/5
+22. inspect 1/1, import 4/4, from import 5/5
+23. inspect 1/1, import 6/6, from import 1/1
+24. inspect 1/1, import 6/6, from import 1/1
+global;
+25. global 1/1, import 1/1, from import 11/11
+26. global 1/1, from import 5/5
+27. global 1/1, import 1/1, from import 6/6
+28. global 1/1, import 5/5, from import 16/16
+29. global 1/1, import 2/2, from import 8/8
+30. global 1/1, import 3/3, from import 22/22
+31. global 1/1, import 3/3, from import 14/14
+32. global 1/1, import 3/3, from import 16/16
+nonlocal;
+33. nonlocal 1/1, import 7/7, from import 39/39
+34. nonlocal 2/2, inspect 1/1, import 5/5, from import 11/12 ERROR: IN STRING BLOCK
+35. global 1/1, nonlocal 1/1, locals() 2/2, import 12/12, from import 18/20 ERROR: IN STRING BLOCK
+36. nonlocal 1/1, import 4/4, from import 3/3
+37. nonlocal 2/2, import 5/5, from import 24/24
+38. nonlocal 1/1, import 2/2, from import 9/9
+39. nonlocal 2/2, import 12/12, from import 27/29 ERROR: IN STRING BLOCK
+40. nonlocal 2/2, import 6/6, from import 42/42
+41. nonlocal 1/1, import 4/4, from import 30/30
+42. nonlocal 1/1, import 1/1, from import 6/6
+43. nonlocal 1/1, from import 51/51
+globals();
+44. globals() 2/2, import 2/2, from import 9/9 
+45. globals() 3/3, import 1/1, from import 11/11
+46. global 1/1, globals() 3/3, import 3/3, from import 5/5
+47. globals() 2/2, import 16/19, from import 12/15 ERROR: IN STRING BLOCKS AND COMMENTS
+48. globals() 1/1, locals(), import 6/6, from import 13/13
+49. globals() 3/3, from import 13/14 ERROR: IN STRING BLOCKS
+50. globals() 2/2, import 1/1
+51. globals() 1/1, locals() 1/1, import 3/3, from import 1/1
+52. globals() 1/1, import 7/7, from import 3/3
+53. globals() 6/6, locals 1/7 ERROR: does not detect **locals(), import 27/27, from import 11/11
+54. globals() 1/1, import 8/8, from import 2/2
+55. globals() 1/1, import 7/7, from import 23/23
+locals();
+56. locals() 1/1, import 7/7, from import 51/51
+57. globals() 1/1, locals() 1/1, import 6/6, from import 13/13
+58. global 1/1, nonlocal 1/1, locals() 2/2, import 11/12, from import 17/20 ERROR: IN STRING BLOCK
+59. globals() 1/1, locals() 1/1, import 3/3, from import 1/1
+60. locals() 1/1, import 1/1
+61. globals() 6/6, locals 1/7 ERROR: does not detect **locals(), import 27/27, from import 11/11
+62. locals() 1/1, from import 9/9
+63. globals() 1/1, locals() 1/1, import 8/8, from import 19/19
+64. locals() 2/2, import 2/2, from import 4/4
+65. globals() 1/1, locals() 1/1, import 5/5, from import 15/15
+66. globals() 1/1, locals() 1/1, import 3/3, from import 14/14
+67. globals() 1/1, locals() 1/1, import 3/3, from import 13/13
+68. locals() 1/1, import 2/2, from import 13/15 ERROR: IN STRING BLOCK
+imports;
+69. from import 1/1
+70. from import 1/1
+71. import 9/9, from import 4/4
+72. import 1/1, from import 1/1
+73. import 1/1, from import 2/2
+74. import 1/1, from import 20/20
+75. import 3/3, from import 16/16
+76. import 3/3, from import 3/3
+77. import 1/1
+78. import 3/3, from import 1/1
+79. import 1/1
+80. global 1/1, import 3/3
+81. global 1/1, import 4/4, from import 5/5
+82. import 1/1, from import 2/2
+83. import 1/1
+84. import 2/2, from import 14/14
+85. import 1/1
+86. from import 1/1
+87. from import 2/2
+88. import 2/2, from import 187/187
+89. import 4/4, from import 1/1
+90. import 1/1, from import 3/3
+91. import 1/1, from import 4/4
+92. from import 2/2
+93. from import 2/2
+94. from import 3/3
+95. from import 7/7
+96. from import 7/7
