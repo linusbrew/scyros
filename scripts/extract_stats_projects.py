@@ -19,6 +19,8 @@ df_projects = extractor.clean_projects(df_before)
 df_projects.write_csv("result/" + PREFIX + "_projects_clean.csv")
 
 with open(stats_file_name, "w") as f:
+    projects_kw_ratio = extractor.get_kw_ratio(df_projects, "files_with_kw")
+    f.write(f"The percentage of projects having at least one keyword: {projects_kw_ratio}%\n")
     files_kw_percentage = extractor.kw_ratio_project(df_projects, "files_with_kw", "files")
     f.write(f"The percentage of files having at least one keyword: {files_kw_percentage}%\n")
     f.write(f"The number of projects before cleanup: {extractor.count_rows(df_before)}\n")
@@ -49,6 +51,9 @@ with open(stats_file_name, "w") as f:
         f.write(f"The percentage of files having {extractor.file_to_kw.get(kw)}: {files_kw_percentage}%\n")
         # f.write(f"The percentage of LOC having {extractor.file_to_kw.get(kw)}: {loc_kw_percentage}%\n")
         # f.write(f"The percentage of words having {extractor.file_to_kw.get(kw)}: {words_kw_percentage}%\n")
+
+        projects_kw_percentage = extractor.kw_percentage(df_projects, path)
+        f.write(f"The percentage of projects having {extractor.file_to_kw.get(kw)}: {projects_kw_percentage}%\n")
 
         kw_in_project = extractor.kw_in_project(df_projects, path)
         f.write(f"The total number of occurrences in all projects for {extractor.file_to_kw.get(kw)}: {kw_in_project}\n")

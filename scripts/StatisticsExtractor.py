@@ -183,6 +183,19 @@ class StatisticsExtractor:
         kw_count = df.select(pl.col(column)).sum().item()
         return kw_count
     
+    def kw_percentage(self, df: pl.DataFrame, column: str) -> float:
+        df_filtered = df.filter(pl.col(column) > 0)
+        result = df_filtered.select(pl.count()).item()
+        return round((result / df.select(pl.count()).item()) * 100, 2)
+    
+    def get_kw_ratio(self, df: pl.DataFrame, column: str) -> float:
+        df_filtered = df.filter(pl.col(column) > 0)
+        result = df_filtered.select(pl.count()).item()
+        length_original = df.select(pl.count()).item()
+        return round((result /  length_original) * 100, 2)
+    
+
+
     # To see how the ratio between the total LOC and the LOC that contain 
     # the keyword. This is only intended if we have one keyword, must
     # be updated when doing this with multiple keywords
@@ -197,7 +210,7 @@ class StatisticsExtractor:
     def min_keyword_project(self, df: pl.DataFrame, column: str) -> int:
         return df.select(pl.col(column).min()).item()
 
-    def calculate_mean(self, df: pl.DataFrame, column: str) -> int:
+    def calculate_mean(self, df: pl.DataFrame, column: str) -> float:
         df_mean = df.mean()
         return df_mean.select(pl.col(column).round(2)).item()
     
@@ -205,18 +218,18 @@ class StatisticsExtractor:
         df_median = df.median()
         return df_median.select(pl.col(column)).item()
 
-    def calculate_variance(self, df: pl.DataFrame, column:str) -> int:
+    def calculate_variance(self, df: pl.DataFrame, column:str) -> float:
         df_var = df.var()
         return round(df_var.select(pl.col(column)).item(), 2)
 
-    def calculate_sigma(self, df: pl.DataFrame, column:str) -> int:
+    def calculate_sigma(self, df: pl.DataFrame, column:str) -> float:
         df_sigma = df.std()
         return round(df_sigma.select(pl.col(column)).item(), 2)
 
     def calculate_quant(self, df: pl.DataFrame, column:str) -> tuple[int, int, int]:
         result = list()
-        foo = df.select(pl.col(column))
+        df_col = df.select(pl.col(column))
         for quantile in self.quantiles:
-            result.append(foo.quantile(quantile=quantile).item())
+            result.append(df_col.quantile(quantile=quantile).item())
         return tuple(result)
     
