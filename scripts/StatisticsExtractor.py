@@ -61,7 +61,8 @@ class StatisticsExtractor:
         ax.set_xticks(np.arange(0, 1.1, 0.1))
         ax.set_yticks(np.arange(0, 1.1, 0.1))
         
-      # we need the X values to be between 0.0 to 1.0
+        # we need the X values to be between 0.0 to 1.0
+        kw = kw.replace(".json", "")
         ax.plot(
             np.linspace(0.0, 1.0, lorenz_curve.size),
             lorenz_curve,
