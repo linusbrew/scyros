@@ -92,7 +92,7 @@ class StatisticsExtractor:
         l = ax.legend(loc='upper left')
         l.set_zorder(3)
         
-        plt.savefig(self.PATH_FIGURES + kw + ".png")
+        plt.savefig(self.PATH_FIGURES + kw + ".pdf")
         plt.close(fig) 
 
     def gini(self, g_arr) -> float:
@@ -120,6 +120,36 @@ class StatisticsExtractor:
     def last_zero(self, arr) -> float:
         # print((np.where(arr==0)[0][-1] + 1) / len(arr))
         return (np.where(arr==0)[0][-1] + 1) / len(arr)
+    
+    def plot_stacked_bar_imports(self, kw: str, num_module: int, num_function: int) -> None:
+        plt.cla()
+        plt.clf()
+        kw = kw.replace(".json", "")
+        imports = [num_module, num_function]
+        names = [kw + " - module level", kw + " - function level"]
+        colors = ["steelblue", "darkorange"]
+        total = sum(imports)
+
+        fig, ax = plt.subplots()
+        bars = ax.bar(names, imports, color=colors, edgecolor="white")
+
+        # Show percentage above each bar
+        for bar, count in zip(bars, imports):
+            pct = count / total * 100
+            ax.text(
+                bar.get_x() + bar.get_width() / 2,
+                bar.get_height(),
+                f"{pct:.1f}%",
+                ha="center", va="bottom", fontsize=10
+            )
+
+        ax.set_ylabel("Count")
+        ax.set_title("Import location distribution")
+        ax.spines[["top", "right"]].set_visible(False)
+        # plt.tight_layout()
+        # plt.show()
+        plt.savefig(self.PATH_FIGURES + kw + "_bar.pdf")
+        plt.close(fig) 
     
     def count_parse_error(self, df: pl.DataFrame) -> int:
         filtered = df.filter(pl.col("parse_error") != "none")
