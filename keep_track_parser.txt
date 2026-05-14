@@ -1,5 +1,5 @@
 1: correctly detect number of functions, syntax error: tried to call method but missed paranthesis, .cuda)(), does not detect imports
-2: correctly detect number of functions, syntax error: comment out "," in function definition, correctly detects imports
+2: correctly detect number of functions(42), syntax error: comment out "," in function definition, correctly detects imports
 3: correctly detects number of functions, syntax error?, git merge conflict, does not detect any keyword/function altough they exist
 4: correctly detects number of functions(0), syntax error: missing paranthesis float(foo, print "foo"+ bar + baz
 5: incorrectly detect number of functions 11(false) instead of 9(true), syntax error: format(filename=filename,tempname=tempname,suffix=args.traj_suffix)f
@@ -8,8 +8,8 @@
 8: correctly detects number of functions (79), syntax error: incomplete import statement: from daw
 9: correctly detects number of functions (79), syntax error: incomplete with open() statement 
 10: incorrectly detects number of function 72(false) instead of 79(true), syntax error: incomplete function definition: def is
-11: correctly detects number of functions (83), syntax error: incomplete function definition
-12: correctly detects number of functions (82), syntax error: incomplete function definition arguments
+11: correctly detects number of functions (83), syntax error: incomplete function definition: def _fit
+12: correctly detects number of functions (82), syntax error: incomplete function call
 13: correctly detects number of functions (82), syntax error: incomplete if statement (missing ":")
 14: correctly detects number of functions (82), syntax error: incomplete list comprehension 
 15: correctly detects number of functions (82), syntax error: incomplete for loop setup: for letter
@@ -38,49 +38,51 @@
 38: correctly detects number of functions (7), syntax error: using incomplete assignment
 39: correctly detects number of functions (6), syntax error: missing semicolon
 40: correctly detects number of functions (6), syntax error: incomplete class access
-41: correctly detects number of functions (11), syntax error: incomplete function definition
+41: correctly detects number of functions (10), syntax error: incomplete function definition
 42: correctly detects number of functions (11), syntax error: incomplete assignment
 43: correctly detects number of functions (11), syntax error: incomplete function definition
 44: correctly detects number of functions (12), syntax error: incomplete function definition
 45: correctly detects number of functions (15), syntax error: incomplete assignment
-46: correctly detects number of functions (15), syntax error: 
+46: correctly detects number of functions (15), syntax error: incomplete indexing in list
 47: correctly detects number of functions (18), syntax error: incomplete function def
 48: correctly detects number of functions (19), syntax error: incomplete for loop init
 49: correctly detects number of functions (19), syntax error: incomplete for loop init
-50: correctly detects number of functions (19), syntax error: 
-51: correctly detects number of functions (19), syntax error: 
+50: correctly detects number of functions (19), syntax error: incomplete indexing in list 
+51: correctly detects number of functions (19), syntax error: incomplete access of class values
 52: correctly detects number of functions (22), syntax error: incomplete print function call
 53: correctly detects number of functions (24), syntax error: incomplete function def
 54: correctly detects number of functions (25), syntax error: incomplete function def
-55: correctly detects number of functions (25), syntax error: 
-56: correctly detects number of functions (27), syntax error: 
-57: correctly detects number of functions (27), syntax error: 
-58: incorrectly detects number of functions 28(false) instead of 29(true), syntax error: 
-59: incorrectly detects number of functions 28(false) instead of 29(true), syntax error:
-60: incorrectly detects number of functions 28(false) instead of 29(true), syntax error:
-61: incorrectly detects number of functions 29(false) instead of 30(true), syntax error: 
-62: correctly detects number of functions (30), syntax error: 
-63: correctly detects number of functions (31), syntax error: 
-64: correctly detects number of functions (31), syntax error: 
-65: correctly detects number of functions (32), syntax error: 
-66: correctly detects number of functions (32), syntax error: 
-67: incorrectly detects number of functions 33(false) instead of 34(true), syntax error:  
-68: incorrectly detects number of functions 33(false) instead of 34(true), syntax error: 
-69: incorrectly detects number of functions 33(false) instead of 34(true), syntax error:
-70: incorrectly detects number of functions 33(false) instead of 34(true), syntax error:
-71: correctly detects number of functions (0), syntax error: 
-72: correctly detects number of functions (0), syntax error: 
+55: correctly detects number of functions (25), syntax error: incomplete for loop init
+56: correctly detects number of functions (27), syntax error: incomplete access of class values
+57: correctly detects number of functions (27), syntax error: incomplete function definition "def log"
+58: incorrectly detects number of functions 28(false) instead of 29(true), syntax error: incomplete with open()
+59: incorrectly detects number of functions 28(false) instead of 29(true), syntax error: incomplete assignment
+60: incorrectly detects number of functions 28(false) instead of 29(true), syntax error: incomplete print()
+61: incorrectly detects number of functions 29(false) instead of 30(true), syntax error: incomplete print()
+62: correctly detects number of functions (30), syntax error: incomplete if statement
+63: correctly detects number of functions (31), syntax error: incomplete assignment
+64: correctly detects number of functions (31), syntax error: incomplete function definition EXAMPLE
+65: correctly detects number of functions (32), syntax error: incomplete for loop init
+66: correctly detects number of functions (32), syntax error: incomplete for loop init
+67: incorrectly detects number of functions 33(false) instead of 34(true), syntax error: incomplete for loop init  
+68: incorrectly detects number of functions 33(false) instead of 34(true), syntax error: incomplete for loop init
+69: incorrectly detects number of functions 33(false) instead of 34(true), syntax error: incomplete for loop init
+70: incorrectly detects number of functions 33(false) instead of 34(true), syntax error: incomplete if statement
+71: correctly detects number of functions (0), syntax error: incomplete class definition
+72: correctly detects number of functions (0), syntax error: incomplete print statement
 73: correctly detects number of functions (2), syntax error: incomplete function def
-74: incorrectly detects number of functions 2(false) instead of 3(true), syntax error:
-75: incorrectly detects number of functions 2(false) instead of 3(true), syntax error:
-76: incorrectly detects number of functions 2(false) instead of 3(true), syntax error: 
-77: correctly detects number of functions (0), syntax error: 
-78: correctly detects number of functions (0), syntax error: 
-79: correctly detects number of functions (0), syntax error: 
-80: correctly detects number of functions (0), syntax error: 
-81: correctly detects number of functions (1), syntax error: 
+74: incorrectly detects number of functions 2(false) instead of 3(true), syntax error: incomplete function def
+75: incorrectly detects number of functions 2(false) instead of 3(true), syntax error: incomplete function call
+76: incorrectly detects number of functions 2(false) instead of 3(true), syntax error: incomplete assignment
+77: correctly detects number of functions (0), syntax error: incomplete print()
+78: correctly detects number of functions (0), syntax error: incomplete print()
+79: correctly detects number of functions (0), syntax error: incomplete class access
+80: correctly detects number of functions (0), syntax error: missing paranthesis
+81: correctly detects number of functions (1), syntax error: character "u" not in string
 
 
 IMPORTANT: 448 out of 499 parsing errors are from the same repo, only 60 unique files, I think i mixed the definition of 
 if a funcion exists. I.e. does scyros get it right if it says 2 if in the file there are 3 def but one of them is currently under construction
 does that count or not
+
+I define a function if it has parameters and has a body, so "def load()" is not a function

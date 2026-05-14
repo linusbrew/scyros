@@ -1,0 +1,67 @@
+def findPossibleWords(self, letters: str, possibleWords: list = [], difficulty: ) -> list[str]:
+        """This method finds all the possible words that can be assembled from the rack letters.
+        These words are arranged in the descending score order.
+        Let's try bashing it."""
+        words = list(permutations(letters))
+        possibleWords = []
+        for word in words:
+            word = listToStr(word)
+            if self.bashSearch(word):
+                possibleWords.append(word)
+        return self.findPossibleWords(letters)
+projects/0/844607287-74f7e05d49cd35e9826228a4e839fa06f040f91d/philippbogdan-Scrabble-NEA-74f7e05/.history/dawg_20241014151615.py
+
+
+
+def decorator(func: Callable[]) -> callable:
+        def wrapper():
+                print("Something before the function execution.")
+
+                func()
+
+                print("Something after the function execution.")
+
+        return wrapper
+
+@decorator
+def f() -> None:
+        print("Inside the function.")
+
+f()
+projects/0/844607287-74f7e05d49cd35e9826228a4e839fa06f040f91d/philippbogdan-Scrabble-NEA-74f7e05/.history/test2_20240820143148.py
+
+
+def build_image_dataset_from_dir(directory,
+                                 dataset_file#="my_tflearn_dataset.pkl",
+                                 filetypes=None, shuffle_data=False,
+                                 categorical_Y=False):
+    try:
+        X, Y = pickle.load(open(dataset_file, 'rb'))
+    except Exception:
+        X, Y = image_dirs_to_samples(directory, resize, convert_gray, filetypes)
+        if categorical_Y:
+            Y = to_categorical(Y, np.max(Y) + 1) # First class is '0'
+        if shuffle_data:
+            X, Y = shuffle(X, Y)
+        pickle.dump((X, Y), open(dataset_file, 'wb'))
+    return X, Y
+projects/0/121547621-af3ac387e09dbb1289b3475ee807ad930de82efe/mobajunior-Deep-Learning-af3ac38/VGG/scripts/data_utils.py
+
+
+
+def makeTurn(self, board: Board) -> Turn:
+        """Heuristic method which finds the best turn a player can make, given his 
+        letters and a board configuraiton"""
+        optimalWords = trie.generateOptimalWord(letters=self.getLetters(),
+                                                difficulty=)
+projects/0/844607287-74f7e05d49cd35e9826228a4e839fa06f040f91d/philippbogdan-Scrabble-NEA-74f7e05/.history/Scrabble_20241015083953.py Number 12
+
+
+def load()
+projects/0/844607287-74f7e05d49cd35e9826228a4e839fa06f040f91d/philippbogdan-Scrabble-NEA-74f7e05/.history/dawg_20240925084643.py Number 33
+
+
+def _dfs(self, node: Node, current word):
+        ...
+projects/0/844607287-74f7e05d49cd35e9826228a4e839fa06f040f91d/philippbogdan-Scrabble-NEA-74f7e05/.history/dawg_20241009083725.py Number 54
+
