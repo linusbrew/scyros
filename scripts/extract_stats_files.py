@@ -31,8 +31,8 @@ with open(file_name, "w") as f:
         # f.write(f"On average when {extractor.file_to_kw.get(kw)} appears the file has: {avg_words} words\n")
 
         files_kw_percentage = extractor.kw_percentage(df_files, path)
-        # loc_kw_percentage = extractor.kw_ratio_project(df_projects, "loc_of_files_with_" + path, "loc")
-        # words_kw_percentage = extractor.kw_ratio_project(df_projects, "words_of_files_with_" + path, "words")
+        # loc_kw_percentage = extractor.kw_ratio_dataframe(df_projects, "loc_of_files_with_" + path, "loc")
+        # words_kw_percentage = extractor.kw_ratio_dataframe(df_projects, "words_of_files_with_" + path, "words")
         f.write(f"The percentage of files having {extractor.file_to_kw.get(kw)}: {files_kw_percentage}%\n")
 
         kw_in_file = extractor.kw_in_project(df_files, path)

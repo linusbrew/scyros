@@ -17,7 +17,7 @@ extractor = StatisticsExtractor()
 
 #TODO: min() is probably not very useful since it will always be 0
 with open(file_name, "w") as f:
-    functions_w_kw = extractor.functions_with_kw(df_logs)
+    functions_w_kw = extractor.calculate_share_functions_with_keyword(df_logs, "functions_with_kw", "functions")
     f.write(f"{functions_w_kw}% of all functions have at least one keyword")
     f.write("\n\n")
 
