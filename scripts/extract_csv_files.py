@@ -16,4 +16,3 @@ extractor.write_parse_error(df_functions, "func")
 for kw in file_names:
     path = PATH_KEYWORDS + kw
     extractor.get_project_list(df_project, path)
-

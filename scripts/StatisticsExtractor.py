@@ -1,6 +1,6 @@
 import polars as pl
 import os
-import json 
+import json
 import re
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,6 +10,7 @@ paths = "/home/linus-brewitz/Code/thesis/scyros/keywords"
 
 # Prefix for files generated from Scyros
 PREFIX = "py"
+
 
 class StatisticsExtractor:
     """
@@ -27,8 +28,9 @@ class StatisticsExtractor:
     PATH_FIGURES : str
         Constant for file path to figures
     THRESHOLD : int
-        Constant for how many files Fred is willing to go through. 
+        Constant for how many files Fred is willing to go through.
     """
+
     quartiles = [0.25, 0.50, 0.75]
     file_to_kw = dict()
     PATH_KEYWORDS = "keywords/"
@@ -52,13 +54,13 @@ class StatisticsExtractor:
                     new_string = new_string.replace("\\b", "")
                     new_string = new_string.replace("\\f", "")
                     new_string = new_string.replace("\\n", "")
-                    new_string = re.sub(r'[^A-Za-z\.]', '', new_string)
+                    new_string = re.sub(r"[^A-Za-z\.]", "", new_string)
                     if new_string[0] == "m":
                         new_string = new_string.replace("m", "", 1)
                     self.file_to_kw[e.name] = new_string
 
     def below_threshold(self, df: pl.DataFrame, kw: str) -> bool:
-        """Checks whether a certain keyword in a project is below or 
+        """Checks whether a certain keyword in a project is below or
         equal to a defined threshold
 
         Parameters
@@ -71,7 +73,7 @@ class StatisticsExtractor:
         Returns
         -------
         bool
-            bool if the keyword occurs less or equal times 
+            bool if the keyword occurs less or equal times
             compared to the threshold
         """
 
@@ -81,7 +83,7 @@ class StatisticsExtractor:
     # write to a .csv file instead to save screen space.
     def get_project_list(self, df: pl.DataFrame, kw: str) -> None:
         """Gathers files in which a keyword occurs less or equal to a
-        defined threshold and writes the gathered files to 
+        defined threshold and writes the gathered files to
         a .csv file
 
         Parameters
@@ -94,14 +96,18 @@ class StatisticsExtractor:
         Returns
         -------
         None
-            method does not return, but instead writes to 
+            method does not return, but instead writes to
             .csv file
         """
         if self.below_threshold(df, kw):
-            os.makedirs(os.path.dirname("result/filtered_" + kw + ".csv"), exist_ok=True)
+            os.makedirs(
+                os.path.dirname("result/filtered_" + kw + ".csv"), exist_ok=True
+            )
             new_df = pl.DataFrame({"id": [], "path": [], "name": [], kw: []})
             filtered = df.filter((pl.col(kw) > 0))
-            new_df = filtered.select(pl.col("id"), pl.col("path"), pl.col("name"), pl.col(kw))
+            new_df = filtered.select(
+                pl.col("id"), pl.col("path"), pl.col("name"), pl.col(kw)
+            )
             new_df.write_csv("result/filtered_" + kw + ".csv")
             print(new_df)
 
@@ -121,56 +127,57 @@ class StatisticsExtractor:
         None
             method write the figure to a PDF
         """
-        
+
         gini_coeff = self.gini(arr)
         lorenz_curve = self.lorenz(arr)
         x_line = self.last_zero(arr)
-        
+
         plt.cla()
         plt.clf()
-        
+
         fig, ax = plt.subplots()
         ax.set_xticks(np.arange(0, 1.1, 0.1))
         ax.set_yticks(np.arange(0, 1.1, 0.1))
-        
+
         # we need the X values to be between 0.0 to 1.0
         kw = kw.replace(".json", "")
         ax.plot(
             np.linspace(0.0, 1.0, lorenz_curve.size),
             lorenz_curve,
             label="Lorenz curve for " + kw,
-            zorder=2
+            zorder=2,
         )
-        
+
         # plot the straight line perfect equality curve
         ax.plot([0, 1], [0, 1], label="Equality line", zorder=2)
-        
-        ax.axvline(x_line, color='r', label='Last zero', zorder=2)
-        
-        props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
+
+        ax.axvline(x_line, color="r", label="Last zero", zorder=2)
+
+        props = dict(boxstyle="round", facecolor="wheat", alpha=0.5)
         ax.text(
-            0.025, 0.77,
+            0.025,
+            0.77,
             "Gini = " + str(gini_coeff),
             bbox=props,
-            zorder=3,                  
-            transform=ax.transAxes,    
-            verticalalignment='top'
+            zorder=3,
+            transform=ax.transAxes,
+            verticalalignment="top",
         )
-        
+
         ax.set_xlabel("Cumulative Share of projects")
         ax.yaxis.set_label_position("right")
         ax.yaxis.tick_right()
         ax.set_ylabel("Cumulative Share of keywords/functions")
-        l = ax.legend(loc='upper left')
+        l = ax.legend(loc="upper left")
         l.set_zorder(3)
-        
+
         plt.savefig(self.PATH_FIGURES + kw + ".pdf")
-        plt.close(fig) 
+        plt.close(fig)
 
     def gini(self, g_arr) -> float:
         """Calculates the Gini coefficient for an array of values
 
-        This method was originally posted on GitHubGist by CMCDragonkai 
+        This method was originally posted on GitHubGist by CMCDragonkai
         Link: https://gist.github.com/CMCDragonkai/c79b9a0883e31b327c88bfadb8b06fc4
 
         Parameters
@@ -194,8 +201,8 @@ class StatisticsExtractor:
     def lorenz(self, l_arr: np._Array1D) -> np._Array1D:
         """Calculates the Lorenz array
 
-        This method was originally posted on GitHubGist by CMCDragonkai 
-        Link: https://gist.github.com/CMCDragonkai/c79b9a0883e31b327c88bfadb8b06fc4 
+        This method was originally posted on GitHubGist by CMCDragonkai
+        Link: https://gist.github.com/CMCDragonkai/c79b9a0883e31b327c88bfadb8b06fc4
 
         Parameters
         ----------
@@ -213,9 +220,9 @@ class StatisticsExtractor:
         scaled_prefix_sum = l_arr.cumsum() / l_arr.sum()
         # this prepends the 0 value (because 0% of all people have 0% of all wealth)
         return np.insert(scaled_prefix_sum, 0, 0)
-    
+
     def last_zero(self, arr) -> float:
-        """Calculates the last index where a 0 is. Then converts to 
+        """Calculates the last index where a 0 is. Then converts to
         decimal form to get share where the index is
 
         Parameters
@@ -226,13 +233,15 @@ class StatisticsExtractor:
         Returns
         -------
         float
-            the share of the population where the last 
+            the share of the population where the last
             0 occurs
         """
-        return (np.where(arr==0)[0][-1] + 1) / len(arr)
-    
-    def plot_stacked_bar_imports(self, kw: str, num_module: int, num_function: int) -> None:
-        """Plots a stacked bar figure for a keyword and then saves 
+        return (np.where(arr == 0)[0][-1] + 1) / len(arr)
+
+    def plot_stacked_bar_imports(
+        self, kw: str, num_module: int, num_function: int
+    ) -> None:
+        """Plots a stacked bar figure for a keyword and then saves
         the figure as a PDF
 
         Parameters
@@ -267,7 +276,9 @@ class StatisticsExtractor:
                 bar.get_x() + bar.get_width() / 2,
                 bar.get_height(),
                 f"{pct:.1f}%",
-                ha="center", va="bottom", fontsize=10
+                ha="center",
+                va="bottom",
+                fontsize=10,
             )
 
         ax.set_ylabel("Count")
@@ -276,10 +287,10 @@ class StatisticsExtractor:
         # plt.tight_layout()
         # plt.show()
         plt.savefig(self.PATH_FIGURES + kw + "_bar.pdf")
-        plt.close(fig) 
-    
+        plt.close(fig)
+
     def count_parse_error(self, df: pl.DataFrame) -> int:
-        """Counts the number of parsing errors in a 
+        """Counts the number of parsing errors in a
         given Polars dataframe
 
         Parameters
@@ -297,7 +308,7 @@ class StatisticsExtractor:
         return result
 
     def write_parse_error(self, df: pl.DataFrame, path: str) -> None:
-        """Writes all of the files that has a parsing error 
+        """Writes all of the files that has a parsing error
         to a .csv file
 
         Parameters
@@ -317,7 +328,7 @@ class StatisticsExtractor:
         filtered.write_csv(f"result/parse_error_{path}.csv")
 
     def column_as_numpy(self, df: pl.DataFrame, column: str) -> np._Array1D:
-        """Takes a dataframe and a column name and then returns that 
+        """Takes a dataframe and a column name and then returns that
         column as a NumPy array
 
         Parameters
@@ -353,7 +364,7 @@ class StatisticsExtractor:
         return df.select(pl.count()).item()
 
     def num_after_cleanup(self, df_before: pl.DataFrame, df_after: pl.DataFrame) -> int:
-        """Counts the number of rows removed when cleaning up the df_before 
+        """Counts the number of rows removed when cleaning up the df_before
         dataframe
 
         Parameters
@@ -370,8 +381,10 @@ class StatisticsExtractor:
         """
         return self.count_rows(df_before) - self.count_rows(df_after)
 
-    def percentage_after_cleanup(self, df_before: pl.DataFrame, df_after: pl.DataFrame) -> float:
-        """Checks whether a certain keyword in a project is below or 
+    def percentage_after_cleanup(
+        self, df_before: pl.DataFrame, df_after: pl.DataFrame
+    ) -> float:
+        """Checks whether a certain keyword in a project is below or
         equal to a defined threshold
 
         Parameters
@@ -384,7 +397,7 @@ class StatisticsExtractor:
         Returns
         -------
         bool
-            bool if the keyword occurs less or equal times 
+            bool if the keyword occurs less or equal times
             compared to the threshold
         """
         return round((self.count_rows(df_after) / self.count_rows(df_before)) * 100, 2)
@@ -406,18 +419,19 @@ class StatisticsExtractor:
         Returns
         -------
         bool
-            bool if the keyword occurs less or equal times 
+            bool if the keyword occurs less or equal times
             compared to the threshold
         """
         numerator_num = df.select(pl.col(numerator).sum().round(3)).item()
         deno_num = df.select(pl.col(deno).sum().round(3)).item()
         percentage = numerator_num / (numerator_num + deno_num)
         return round(percentage, 3)
-    
-    def calculate_share_functions_with_keyword(self, df: pl.DataFrame, kw: str,
-                                                column: str) -> float:
+
+    def calculate_share_functions_with_keyword(
+        self, df: pl.DataFrame, kw: str, column: str
+    ) -> float:
         """Function that calculates the share of a certain keyword
-        compared to all functions 
+        compared to all functions
 
         Parameters
         ----------
@@ -433,10 +447,12 @@ class StatisticsExtractor:
         float
             the share of functions that have keywords
         """
-        return df.select(((pl.col(kw).sum() / pl.col(column).sum()) * 100).round(2)).item()
-        
+        return df.select(
+            ((pl.col(kw).sum() / pl.col(column).sum()) * 100).round(2)
+        ).item()
+
     def avg_length(self, df: pl.DataFrame, length: str, keyword: str) -> float:
-        """Calculates the average length of a file if it contains 
+        """Calculates the average length of a file if it contains
         a keyword. The length can be either LOC or words
 
         Parameters
@@ -455,9 +471,9 @@ class StatisticsExtractor:
         """
         non_zero = df.remove(pl.col(keyword) == 0)
         return non_zero.select(pl.col(length).mean().round(2)).item()
-    
+
     def median_length(self, df: pl.DataFrame, length: str, keyword: str) -> int:
-        """Calculates the median length of a file if it contains 
+        """Calculates the median length of a file if it contains
         a keyword. The length can be either LOC or words
 
         Parameters
@@ -480,7 +496,7 @@ class StatisticsExtractor:
     # NOTE: just in case I need to clean the data because of the errors
     def clean_projects(self, df: pl.DataFrame) -> pl.DataFrame:
         """Cleans a project dataframe from errors if a row
-        in the "path" column has "error" as value by removing 
+        in the "path" column has "error" as value by removing
         those rows
 
         Parameters
@@ -513,10 +529,10 @@ class StatisticsExtractor:
         """
         kw_count = df.select(pl.col(column)).sum().item()
         return kw_count
-    
+
     def kw_percentage(self, df: pl.DataFrame, column: str) -> float:
         """Calculates the percentage of projects/files/functions
-        having at least one occurrence of a column 
+        having at least one occurrence of a column
 
 
         Parameters
@@ -535,7 +551,7 @@ class StatisticsExtractor:
         df_filtered = df.filter(pl.col(column) > 0)
         result = df_filtered.select(pl.count()).item()
         return round((result / df.select(pl.count()).item()) * 100, 2)
-    
+
     def get_kw_ratio(self, df: pl.DataFrame, kw: str) -> float:
         """Calculates the percentage of projects/files/functions
         having at least one occurrence of a keyword
@@ -556,10 +572,9 @@ class StatisticsExtractor:
         df_filtered = df.filter(pl.col(kw) > 0)
         result = df_filtered.select(pl.count()).item()
         length_original = df.select(pl.count()).item()
-        return round((result /  length_original) * 100, 2)
-    
+        return round((result / length_original) * 100, 2)
 
-    # To see how the ratio between the total LOC and the LOC that contain 
+    # To see how the ratio between the total LOC and the LOC that contain
     # the keyword. This is only intended if we have one keyword, must
     # be updated when doing this with multiple keywords
     # NOTE: this actually works for words as well since we specify
@@ -576,12 +591,12 @@ class StatisticsExtractor:
         path : str
             The column the is documented as "foo_with_bar"
         total: str
-            The column that symbolises the total column 
+            The column that symbolises the total column
 
         Returns
         -------
         bool
-            bool if the keyword occurs less or equal times 
+            bool if the keyword occurs less or equal times
             compared to the threshold
 
         Example(s)
@@ -590,10 +605,12 @@ class StatisticsExtractor:
         >>> print(ratio)
         42.37
         """
-        return df.select(((pl.col(part).sum() / pl.col(total).sum()) * 100).round(2)).item()
+        return df.select(
+            ((pl.col(part).sum() / pl.col(total).sum()) * 100).round(2)
+        ).item()
 
     def max_keyword_project(self, df: pl.DataFrame, column: str) -> int:
-        """Calculates the maximum value for a column in a 
+        """Calculates the maximum value for a column in a
         Polars dataframe
 
         Parameters
@@ -609,9 +626,9 @@ class StatisticsExtractor:
             the maximum value in the specified column
         """
         return df.select(pl.col(column).max()).item()
-    
+
     def min_keyword_project(self, df: pl.DataFrame, column: str) -> int:
-        """Calculates the minimum value for a column in a 
+        """Calculates the minimum value for a column in a
         Polars dataframe
 
         Parameters
@@ -629,7 +646,7 @@ class StatisticsExtractor:
         return df.select(pl.col(column).min()).item()
 
     def calculate_mean(self, df: pl.DataFrame, column: str) -> float:
-        """Calculates the mean value for a column in a 
+        """Calculates the mean value for a column in a
         Polars dataframe
 
         Parameters
@@ -646,9 +663,9 @@ class StatisticsExtractor:
         """
         df_mean = df.mean()
         return df_mean.select(pl.col(column).round(2)).item()
-    
-    def calculate_median(self, df: pl.DataFrame, column:str) -> int:
-        """Calculates the median value for a column in a 
+
+    def calculate_median(self, df: pl.DataFrame, column: str) -> int:
+        """Calculates the median value for a column in a
         Polars dataframe
 
         Parameters
@@ -666,8 +683,8 @@ class StatisticsExtractor:
         df_median = df.median()
         return df_median.select(pl.col(column)).item()
 
-    def calculate_variance(self, df: pl.DataFrame, column:str) -> float:
-        """Calculates the variance value for a column in a 
+    def calculate_variance(self, df: pl.DataFrame, column: str) -> float:
+        """Calculates the variance value for a column in a
         Polars dataframe
 
         Parameters
@@ -685,8 +702,8 @@ class StatisticsExtractor:
         df_var = df.var()
         return round(df_var.select(pl.col(column)).item(), 2)
 
-    def calculate_sigma(self, df: pl.DataFrame, column:str) -> float:
-        """Calculates the standard deviation for a column in a 
+    def calculate_sigma(self, df: pl.DataFrame, column: str) -> float:
+        """Calculates the standard deviation for a column in a
         Polars dataframe
 
         Parameters
@@ -704,8 +721,8 @@ class StatisticsExtractor:
         df_sigma = df.std()
         return round(df_sigma.select(pl.col(column)).item(), 2)
 
-    def calculate_quant(self, df: pl.DataFrame, column:str) -> tuple[int, int, int]:
-        """Calculates the first, second, and third quantiles for a column in a 
+    def calculate_quant(self, df: pl.DataFrame, column: str) -> tuple[int, int, int]:
+        """Calculates the first, second, and third quantiles for a column in a
         Polars dataframe
 
         Parameters
@@ -719,7 +736,7 @@ class StatisticsExtractor:
         -------
         tuple
             a tuple with tree elements, the first value corresponds
-            the first quartile, seconds value corresponds to 
+            the first quartile, seconds value corresponds to
             second quartile (median), third value corresponds to
             third quartile
         """
@@ -728,4 +745,3 @@ class StatisticsExtractor:
         for quantile in self.quartiles:
             result.append(df_col.quantile(quantile=quantile).item())
         return tuple(result)
-    
