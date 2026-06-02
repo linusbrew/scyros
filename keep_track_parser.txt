@@ -2,7 +2,7 @@
 2: correctly detect number of functions(42), syntax error: comment out "," in function definition, correctly detects imports
 3: correctly detects number of functions, syntax error?, git merge conflict, does not detect any keyword/function altough they exist
 4: correctly detects number of functions(0), syntax error: missing paranthesis float(foo, print "foo"+ bar + baz
-5: incorrectly detect number of functions 11(false) instead of 9(true), syntax error: format(filename=filename,tempname=tempname,suffix=args.traj_suffix)f
+5: correctly detect number of functions 11, syntax error: format(filename=filename,tempname=tempname,suffix=args.traj_suffix)f
 6: correctly detects number of functions 0, syntax error: missing paranthesis python2 print, does not detect keyword
 7: incorrectly detects number of function 67(false) instead of 76(true), syntax error: python2 prints
 8: correctly detects number of functions (79), syntax error: incomplete import statement: from daw
