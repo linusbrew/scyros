@@ -284,8 +284,6 @@ class StatisticsExtractor:
         ax.set_ylabel("Count")
         ax.set_title("Import location distribution")
         ax.spines[["top", "right"]].set_visible(False)
-        # plt.tight_layout()
-        # plt.show()
         plt.savefig(self.PATH_FIGURES + kw + "_bar.pdf")
         plt.close(fig)
 
